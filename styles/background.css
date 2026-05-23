@@ -24,8 +24,8 @@
     background-repeat: no-repeat;
 
     animation:
-        fadeAnimation 18s infinite,
-        zoomAnimation 18s infinite;
+        fadeAnimation 32.5s infinite, /*ANIMATION DELAY x UMBER OF SLIDES */
+        zoomAnimation 32.5s infinite;
 }
 
 /* ========================================= */
@@ -34,23 +34,29 @@
 
 .slide1 {
     background-image: url("../images/background/grotto.jpg");
-    animation-delay: 0s;
+    animation-delay: 0s; 
 }
-
 .slide2 {
     background-image: url("../images/background/benjis.jpg");
-    animation-delay: 6s;
+    animation-delay: 6.5s; /* 1/(number of slides) x  ANIMATION DELAY */
 }
-
 .slide3 {
     background-image: url("../images/background/mcgregor.jpg");
-    animation-delay: 12s;
+    animation-delay: 13s; 
 }
+.slide4 {
+    background-image: url("../images/background/slyfox.jpg");
+    animation-delay: 19.5s; 
+}
+.slide5 {
+    background-image: url("../images/background/benjirocks.jpg");
+    animation-delay: 26s; 
+}
+
 
 /* ========================================= */
 /* FADE ANIMATION */
 /* ========================================= */
-
 @keyframes fadeAnimation {
 
     0% {
@@ -77,22 +83,18 @@
 /* ========================================= */
 /* SLOW ZOOM */
 /* ========================================= */
-
 @keyframes zoomAnimation {
 
     0% {
         transform: scale(1);
     }
-
     100% {
         transform: scale(1.12);
     }
 }
-
 /* ========================================= */
 /* DARK OVERLAY */
 /* ========================================= */
-
 .hero-slideshow::after {
     content: "";
 
@@ -112,7 +114,6 @@
 /* ========================================= */
 /* TEXT OVERLAY */
 /* ========================================= */
-
 .hero-overlay {
     position: absolute;
     z-index: 2;
@@ -132,7 +133,6 @@
 .hero-overlay h1 {
     font-size: 4rem;
     margin-bottom: 20px;
-
     letter-spacing: 2px;
 }
 
@@ -140,11 +140,9 @@
     font-size: 1.3rem;
     line-height: 1.6;
 }
-
 /* ========================================= */
 /* MOBILE */
 /* ========================================= */
-
 @media (max-width: 768px) {
 
     .hero-overlay h1 {
