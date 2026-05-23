@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+
+    .hero-overlay {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .hero-overlay h1 {
+        font-size: 2.2rem;
+        line-height: 1.1;
+    }
+
+    .hero-overlay p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .hero-slideshow {
+    height: 100svh;
+    }
+
+
+}
