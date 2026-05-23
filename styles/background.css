@@ -33,23 +33,23 @@
 /* ========================================= */
 
 .slide1 {
-    background-image: url("../images/background/grotto.jpg");
+    background-image: url("../images/heroslides/grotto.jpg");
     animation-delay: 0s; 
 }
 .slide2 {
-    background-image: url("../images/background/benjis.jpg");
+    background-image: url("../images/heroslides/benjis.jpg");
     animation-delay: 6.5s; /* 1/(number of slides) x  ANIMATION DELAY */
 }
 .slide3 {
-    background-image: url("../images/background/mcgregor.jpg");
+    background-image: url("../images/heroslides/mcgregor.jpg");
     animation-delay: 13s; 
 }
 .slide4 {
-    background-image: url("../images/background/slyfox.jpg");
+    background-image: url("../images/heroslides/slyfox.jpg");
     animation-delay: 19.5s; 
 }
 .slide5 {
-    background-image: url("../images/background/benjirocks.jpg");
+    background-image: url("../images/heroslides/benjirocks.jpg");
     animation-delay: 26s; 
 }
 

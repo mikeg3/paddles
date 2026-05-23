@@ -1,0 +1,16 @@
+.content {
+  background: radial-gradient(
+    ellipse at right,
+    transparent 5%,
+    rgba(39, 19, 187, 0.81) 100%
+  );
+}
+
+.bio p{
+    padding: 5px 10vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: "Over The Rainbow", cursive;
+    line-height: 1.7;
+    font-size: 1.5rem;
+}
