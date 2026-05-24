@@ -32,6 +32,7 @@
     border-radius: 28px;
     display: block;
     object-fit: cover;
+    border: black 2px solid;
 }
 
 /* TEXT SIDE */
