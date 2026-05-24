@@ -79,8 +79,7 @@
 
     .mobile-nav a {
         display: block;
-        padding:
-            14px 40px;
+        padding: 14px 40px;
         border: 2px solid rgba(255, 255, 255, 0.7);
         border-radius: 15px;
         color: white;
