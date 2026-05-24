@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+
+    /* QUOTE TILE */
+    .quote-container {
+        height: 21vh;
+    }
+
+    /* QUOTE */
+    .quote {
+        padding: 2vh 0;
+    }
+
+}

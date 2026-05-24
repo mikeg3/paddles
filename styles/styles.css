@@ -3,6 +3,7 @@
 @import url('menu.css');
 @import url('menuMobile.css');
 @import url('content.css');
+@import url('contentMobile.css');
 
 *, html, body {
     margin: 0;
