@@ -1,13 +1,22 @@
+/* FOR MOBILE, MAKE THE IMAGES SCROLL LEFT TO RIGHT INSTEAD OF ZOMMING IN */
+
 @media (max-width: 768px) {
 
+    /* HERO SECTION */
+    .hero-slideshow {
+        height: 100svh;
+    }
+
+    /* HERO TEXT */
     .hero-overlay {
         width: 90%;
         padding: 20px;
     }
 
     .hero-overlay h1 {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
         line-height: 1.1;
+        margin-bottom: 15px;
     }
 
     .hero-overlay p {
@@ -15,9 +24,48 @@
         line-height: 1.5;
     }
 
-    .hero-slideshow {
-    height: 100svh;
+    /* MOBILE HERO ANIMATION Replace desktop zoom with cinematic pan */
+    .slide {
+        animation-name:
+            fadeAnimation,
+            mobilePan;
     }
 
+    /* ------------------------------------- */
+    /* MOBILE IMAGE POSITIONING */
+    /* Adjust each image independently */
+    /* ------------------------------------- */
+
+    .slide1 {
+        background-position: left center; /* Grotto */
+    }
+    .slide2 {
+        background-position: left center; /* Benjis */
+    }
+    .slide3 {
+        background-position: left top; /* McGregor */
+    }
+    .slide4 {
+        background-position: left center; /* Slyfox */
+    }
+    .slide5 {
+        background-position: left top; /* Benji Rocks */
+    }
+
+    /* ========================================= */
+    /* MOBILE PAN ANIMATION */
+    /* ========================================= */
+    @keyframes mobilePan {
+
+        0% {
+            transform:
+                scale(1) translateX(-25%);
+        }
+        100% {
+            transform:
+                scale(1) translateX(0%);
+        }
+
+    }
 
 }

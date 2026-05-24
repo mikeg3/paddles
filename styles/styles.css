@@ -1,5 +1,7 @@
 @import url('background.css');
+@import url('backgroundMobile.css');
 @import url('menu.css');
+@import url('menuMobile.css');
 @import url('content.css');
 
 *, html, body {

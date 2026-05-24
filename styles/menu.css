@@ -29,6 +29,10 @@ header {
 /* ========================================= */
 /* NAVIGATION */
 /* ========================================= */
+.mobile-nav{
+    display: none;  /* Hidden on desktop */
+}
+
 nav ul {
     display: flex;
     gap: 30px;
