@@ -28,31 +28,31 @@
     /* MOBILE IMAGE POSITIONING */
     /* Adjust each image independently */
     /* ------------------------------------- */
-    .slide1 {
+    .slide1 {   /* Grotto */
         background-position: left;
         animation:
             slide1 100s infinite;
     }
 
-    .slide2 {
+    .slide2 {   /* Benjis */
         background-position: left;
         animation:
             slide2 100s infinite;
     }
 
-    .slide3 {
+    .slide3 {   /* McGregor */
         background-position: left;
         animation:
             slide3 100s infinite;
     }
 
-    .slide4 {
+    .slide4 {   /* Sly Fox */
         background-position: left;
         animation:
             slide4 100s infinite;
     }
 
-    .slide5 {
+    .slide5 {   /* Benjis Rocks*/
         background-position: left;
         animation:
             slide5 100s infinite;
@@ -61,8 +61,8 @@
     /* ========================================= */
     /* MOBILE PAN ANIMATION */
     /* ========================================= */
-
-    @keyframes slide1 {
+    /* Grotto */
+    @keyframes slide1 { 
         0% {
             opacity: 0;
             background-position: 13% center;
@@ -88,8 +88,8 @@
             background-position: left;
         }
     }
-
-    @keyframes slide2 {
+    /* Benjis */
+    @keyframes slide2 {     
         0% {
             opacity: 0;
             background-position: left;
@@ -107,12 +107,12 @@
 
         39.9% {
             opacity: 1;
-            background-position: right;
+            background-position: 90%;
         }
 
         40% {
             opacity: 0;
-            background-position: right;
+            background-position: 90%;
         }
 
         100% {
@@ -120,7 +120,7 @@
             background-position: left;
         }
     }
-
+    /* McGregor */
     @keyframes slide3 {
         0% {
             opacity: 0;
@@ -138,12 +138,12 @@
 
         59.9% {
             opacity: 1;
-            background-position: right;
+            background-position: 90%;
         }
 
         60% {
             opacity: 0;
-            background-position: right;
+            background-position: 90%;
         }
 
         100% {
@@ -151,7 +151,7 @@
             background-position: left;
         }
     }
-
+    /* Sly Fox */
     @keyframes slide4 {
         0% {
             opacity: 0;
@@ -169,12 +169,12 @@
 
         79.9% {
             opacity: 1;
-            background-position: right;
+            background-position: 90%;
         }
 
         80% {
             opacity: 0;
-            background-position: right;
+            background-position: 90%;
         }
 
         100% {
@@ -182,7 +182,7 @@
             background-position: left;
         }
     }
-
+    /* Benjis Rocks */
     @keyframes slide5 {
         0% {
             opacity: 0;
@@ -201,12 +201,12 @@
 
         99.9% {
             opacity: 1;
-            background-position: right;
+            background-position: 95%;
         }
 
         100% {
             opacity: 0;
-            background-position: right;
+            background-position: 95%;
         }
     }
 
