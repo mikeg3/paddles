@@ -4,6 +4,7 @@
 @import url('menuMobile.css');
 @import url('content.css');
 @import url('contentMobile.css');
+@import url('firstSection.css');
 
 *, html, body {
     margin: 0;

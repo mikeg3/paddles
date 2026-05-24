@@ -1,0 +1,53 @@
+/* ========================================= */
+/* STORY SECTION */
+/* ========================================= */
+.story-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 100px;
+    padding: 180px 8%;
+    background:
+        linear-gradient(
+            to bottom,
+            #f8f8f8 0%,
+            #e8e8e8 100%
+        );
+     overflow: hidden;
+}
+
+/* IMAGE WRAPPER */
+.story-image-wrapper {
+    flex: 0 0 48%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* IMAGE */
+.story-image {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 28px;
+    display: block;
+    object-fit: cover;
+}
+
+/* TEXT SIDE */
+.story-text {
+    flex: 0 0 42%;
+    display: flex;
+    align-items: center;
+}
+
+/* QUOTE */
+.story-quote {
+    margin: 0;
+    font-family:'Story Script', cursive;
+    font-size: clamp(3rem, 4vw, 6rem);
+    line-height: 1.15;
+    color: rgba(20,20,20,0.95);
+    text-shadow: 0 4px 20px rgba(0,0,0,0.04);
+    overflow: hidden;
+}
