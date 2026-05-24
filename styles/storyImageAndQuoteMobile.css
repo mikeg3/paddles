@@ -10,12 +10,12 @@
         width: 100%;
         justify-content: center;
         transform: translateX(-12px);
+        z-index: 3;
     }
 
     .story-image {
         width: 100%;
         border-radius: 24px;
-        z-index: 2;
         border: black 2px solid;
     }
 
