@@ -65,22 +65,22 @@
     @keyframes slide1 {
         0% {
             opacity: 0;
-            background-position: left center;
+            background-position: 13% center;
         }
 
         0.1% {
             opacity: 1;
-            background-position: left center;
+            background-position: 13% center;
         }
 
         19.9% {
             opacity: 1;
-            background-position: right center;
+            background-position: 82% center;
         }
 
         20% {
             opacity: 0;
-            background-position: right center;
+            background-position: 82% center;
         }
 
         100% {
