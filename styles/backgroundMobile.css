@@ -31,27 +31,31 @@
     .slide1 {
         background-position: left;
         animation:
-            slide1 32.5s infinite;
+            slide1 100s infinite;
     }
+
     .slide2 {
         background-position: left;
         animation:
-            slide2 32.5s infinite;
+            slide2 100s infinite;
     }
+
     .slide3 {
         background-position: left;
         animation:
-            slide3 32.5s infinite;
+            slide3 100s infinite;
     }
+
     .slide4 {
         background-position: left;
         animation:
-            slide4 32.5s infinite;
+            slide4 100s infinite;
     }
+
     .slide5 {
         background-position: left;
         animation:
-            slide5 32.5s infinite;
+            slide5 100s infinite;
     }
 
     /* ========================================= */
@@ -60,158 +64,151 @@
 
     @keyframes slide1 {
         0% {
-            opacity: 1;
-            transform: +translateX(0%);
+            opacity: 0;
+            background-position: left center;
         }
-        19% {
+
+        0.1% {
             opacity: 1;
-            transform: +translateX(100%);
+            background-position: left center;
         }
+
+        19.9% {
+            opacity: 1;
+            background-position: right center;
+        }
+
         20% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: right center;
         }
-        40% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
-        60% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
-        80% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
+
         100% {
-            opacity: 1;
-            transform: +translateX(0%);
+            opacity: 0;
+            background-position: left;
         }
     }
 
-        @keyframes slide2 {
+    @keyframes slide2 {
         0% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: left;
         }
+
         20% {
-            opacity: 1;
-            transform: +translateX(0%);
+            opacity: 0;
+            background-position: left;
         }
-        39% {
+
+        20.1% {
             opacity: 1;
-            transform: translateX(100%);
+            background-position: left;
         }
+
+        39.9% {
+            opacity: 1;
+            background-position: right;
+        }
+
         40% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: right;
         }
-        60% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
-        80% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
+
         100% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: left;
         }
     }
 
-        @keyframes slide3 {
+    @keyframes slide3 {
         0% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: left;
         }
-        20% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
+
         40% {
-            opacity: 1;
-            transform: +translateX(0%);
+            opacity: 0;
+            background-position: left;
         }
-        59% {
+        40.1% {
             opacity: 1;
-            transform: +translateX(100%);
+            background-position: left;
         }
+
+        59.9% {
+            opacity: 1;
+            background-position: right;
+        }
+
         60% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: right;
         }
-        80% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
+
         100% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: left;
         }
     }
 
-        @keyframes slide4 {
+    @keyframes slide4 {
         0% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: left;
         }
-        20% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
-        40% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
+
         60% {
-            opacity: 1;
-            transform: +translateX(0%);
+            opacity: 0;
+            background-position: left;
         }
-        79% {
+        60.1% {
             opacity: 1;
-            transform: +translateX(100%);
+            background-position: left;
         }
+
+        79.9% {
+            opacity: 1;
+            background-position: right;
+        }
+
         80% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: right;
         }
+
         100% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: left;
         }
     }
 
-        @keyframes slide5 {
+    @keyframes slide5 {
         0% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: left;
         }
-        20% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
-        40% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
-        60% {
-            opacity: 0;
-            transform: +translateX(0%);
-        }
+
         80% {
-            opacity: 1;
-            transform: +translateX(0%);
+            opacity: 0;
+            background-position: left;
         }
-        99% {
+
+        80.1% {
             opacity: 1;
-            transform: +translateX(100%);
+            background-position: left;
         }
+
+        99.9% {
+            opacity: 1;
+            background-position: right;
+        }
+
         100% {
             opacity: 0;
-            transform: +translateX(0%);
+            background-position: right;
         }
     }
-        
+
 
 }
