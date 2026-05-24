@@ -25,14 +25,14 @@
 }
 
 /* IMAGE WRAPPER */
-.story-image-wrapper {
+.story-image-wrapper, .story-image-wrapper-odd {
     flex: 0 0 48%;
     display: flex;
     justify-content: flex-end;
 }
 
 /* IMAGE */
-.story-image {
+.story-image, .story-image-odd {
     width: 100%;
     max-width: 750px;
     border-radius: 28px;

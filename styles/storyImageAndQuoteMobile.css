@@ -19,6 +19,12 @@
         border: black 2px solid;
     }
 
+    .story-image-wrapper-odd {
+        margin-top: -23px;
+        margin-right: -12px;
+        z-index: 4;
+    }
+
     .story-text {
         width: 100%;
         margin-top: -12px;
@@ -29,6 +35,17 @@
         justify-content: center;
         border: black 1px solid;
         border-radius: 24px;
+    }
+
+    .story-text-odd {
+        margin-top: -20px;
+        border: black 1px solid;
+        border-radius: 24px;
+    }
+
+    .story-block{
+        margin-top: 12px;
+        margin-left: -12px;
     }
 
     .story-quote {
