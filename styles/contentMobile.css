@@ -1,13 +1,20 @@
 @media (max-width: 768px) {
 
-    /* QUOTE TILE */
-    .quote-container {
-        height: 21vh;
+    /* SECTION DIVIDER */
+    .section-divider {
+        height: 23vh;
     }
 
-    /* QUOTE */
-    .quote {
-        padding: 2vh 0;
+    /* QUOTE TILE */
+    .quote-container {
+        position: relative;
+        width: 97%;
+        height: 22vh;
     }
+
+        /* QUOTE */
+        .quote {
+            padding: 2vh 0;
+        }
 
 }
