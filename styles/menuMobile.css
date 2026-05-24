@@ -59,7 +59,7 @@
         background-image: url('../images/burger_menu_image.jpg');
         background-size: cover;
         border: 10px solid rgba(0, 0, 0, 0.7);
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     /* ------------------------------------- */
@@ -80,6 +80,9 @@
         border-radius: 15px;
         margin: 0;
         background: rgba(0, 0, 0, 0.7);
+    }
+    .mobile-nav li:hover {
+        background: rgba(0, 0, 0, 0.95);
     }
 
     .mobile-nav a {
