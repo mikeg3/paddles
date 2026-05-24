@@ -56,6 +56,10 @@
         visibility: hidden;
         transition: 0.4s;
         z-index: 1000;
+        background-image: url('../images/burger_menu_image.jpg');
+        background-size: cover;
+        border: 10px solid rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
     }
 
     /* ------------------------------------- */
@@ -75,6 +79,7 @@
     .mobile-nav li {
         border-radius: 15px;
         margin: 0;
+        background: rgba(0, 0, 0, 0.7);
     }
 
     .mobile-nav a {
