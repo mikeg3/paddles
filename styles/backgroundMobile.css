@@ -24,48 +24,194 @@
         line-height: 1.5;
     }
 
-    /* MOBILE HERO ANIMATION Replace desktop zoom with cinematic pan */
-    .slide {
-        animation-name:
-            fadeAnimation,
-            mobilePan;
-    }
-
     /* ------------------------------------- */
     /* MOBILE IMAGE POSITIONING */
     /* Adjust each image independently */
     /* ------------------------------------- */
-
     .slide1 {
-        background-position: left center; /* Grotto */
+        background-position: left;
+        animation:
+            slide1 32.5s infinite;
     }
     .slide2 {
-        background-position: left center; /* Benjis */
+        background-position: left;
+        animation:
+            slide2 32.5s infinite;
     }
     .slide3 {
-        background-position: left top; /* McGregor */
+        background-position: left;
+        animation:
+            slide3 32.5s infinite;
     }
     .slide4 {
-        background-position: left center; /* Slyfox */
+        background-position: left;
+        animation:
+            slide4 32.5s infinite;
     }
     .slide5 {
-        background-position: left top; /* Benji Rocks */
+        background-position: left;
+        animation:
+            slide5 32.5s infinite;
     }
 
     /* ========================================= */
     /* MOBILE PAN ANIMATION */
     /* ========================================= */
-    @keyframes mobilePan {
 
+    @keyframes slide1 {
         0% {
-            transform:
-                scale(1) translateX(-25%);
+            opacity: 1;
+            transform: +translateX(0%);
+        }
+        19% {
+            opacity: 1;
+            transform: +translateX(100%);
+        }
+        20% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        40% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        60% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        80% {
+            opacity: 0;
+            transform: +translateX(0%);
         }
         100% {
-            transform:
-                scale(1) translateX(0%);
+            opacity: 1;
+            transform: +translateX(0%);
         }
-
     }
+
+        @keyframes slide2 {
+        0% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        20% {
+            opacity: 1;
+            transform: +translateX(0%);
+        }
+        39% {
+            opacity: 1;
+            transform: translateX(100%);
+        }
+        40% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        60% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        80% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        100% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+    }
+
+        @keyframes slide3 {
+        0% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        20% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        40% {
+            opacity: 1;
+            transform: +translateX(0%);
+        }
+        59% {
+            opacity: 1;
+            transform: +translateX(100%);
+        }
+        60% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        80% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        100% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+    }
+
+        @keyframes slide4 {
+        0% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        20% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        40% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        60% {
+            opacity: 1;
+            transform: +translateX(0%);
+        }
+        79% {
+            opacity: 1;
+            transform: +translateX(100%);
+        }
+        80% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        100% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+    }
+
+        @keyframes slide5 {
+        0% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        20% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        40% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        60% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+        80% {
+            opacity: 1;
+            transform: +translateX(0%);
+        }
+        99% {
+            opacity: 1;
+            transform: +translateX(100%);
+        }
+        100% {
+            opacity: 0;
+            transform: +translateX(0%);
+        }
+    }
+        
 
 }
