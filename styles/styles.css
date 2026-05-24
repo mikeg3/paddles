@@ -1,11 +1,11 @@
-@import url('background.css');
-@import url('backgroundMobile.css');
+/*@import url('background.css');
+@import url('backgroundMobile.css');*/
 @import url('menu.css');
 @import url('menuMobile.css');
 @import url('content.css');
 @import url('contentMobile.css');
-@import url('firstSection.css');
-@import url('firstSectionMobile.css');
+@import url('storyImageAndQuote.css');
+@import url('storyImageAndQuoteMobile.css');
 
 *, html, body {
     margin: 0;
