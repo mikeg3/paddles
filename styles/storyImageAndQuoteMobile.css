@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
 
-    .story-section {
+    .story-block {
         flex-direction: column;
         gap: 0;
         padding: 75px 30px;
@@ -9,7 +9,7 @@
     .story-image-wrapper {
         width: 100%;
         justify-content: center;
-        margin-left: -12px;
+        transform: translateX(-12px);
     }
 
     .story-image {

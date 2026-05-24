@@ -3,12 +3,17 @@
 /* ========================================= */
 .story-section {
     display: flex;
+    flex-direction: column;
+}
+
+.story-block {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     gap: 100px;
-    padding: 140px 8%;
+    padding: 100px 8%;
     background:
         linear-gradient(
             to bottom,
@@ -16,6 +21,7 @@
             #e8e8e8 100%
         );
      overflow: hidden;
+     border-bottom: 3px solid rgba(0,0,0,0.5);
 }
 
 /* IMAGE WRAPPER */
