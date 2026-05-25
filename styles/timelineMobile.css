@@ -1,0 +1,36 @@
+/* ========================================= */
+/* MOBILE */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+    .timeline-section {
+        padding: 120px 0;
+    }
+
+    .timeline-wrapper {
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .timeline-year {
+        min-width: 85px;
+        padding: 14px 20px;
+        font-size: 0.9rem;
+    }
+
+    .timeline-content {
+        min-height: 650px;
+        padding: 0 20px;
+    }
+
+    .timeline-item img {
+        height: 320px;
+        border-radius: 24px;
+    }
+
+    .timeline-text p {
+        font-size: 1rem;
+    }
+
+}

@@ -3,7 +3,8 @@
     .story-block {
         flex-direction: column;
         gap: 0;
-        padding: 75px 30px;
+        padding: 30px 30px;
+        border-top: 30px solid rgba(0,0,0,0.85);
     }
 
     .story-image-wrapper {

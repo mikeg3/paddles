@@ -6,6 +6,8 @@
 @import url('contentMobile.css');
 @import url('storyImageAndQuote.css');
 @import url('storyImageAndQuoteMobile.css');
+@import url('timeline.css');
+@import url('timelineMobile.css');
 
 *, html, body {
     margin: 0;

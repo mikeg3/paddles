@@ -1,0 +1,153 @@
+/* ========================================= */
+/* TIMELINE SECTION */
+/* ========================================= */
+.timeline-section {
+    padding: 180px 0;
+    background: #0f0f0f;
+    color: white;
+    overflow: hidden;
+}
+
+/* HEADER */
+.timeline-header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.timeline-header h2 {
+    font-size: clamp(3rem, 5vw, 6rem);
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+/* ========================================= */
+/* TIMELINE BAR */
+/* ========================================= */
+.timeline-wrapper {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    overflow-x: auto;
+    padding: 40px 10px;
+    margin-bottom: 100px;
+    scrollbar-width: none;
+}
+
+.timeline-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* LINE */
+.timeline-line {
+    position: absolute;
+    top: 50%;
+    width: 3000px;
+    height: 2px;
+    background: rgba(255,255,255,0.15);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/* YEAR BUTTONS */
+.timeline-year {
+    position: relative;
+    z-index: 2;
+    background: #1b1b1b;
+    border: 2px solid rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.7);
+    padding: 18px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    min-width: 100px;
+}
+
+.timeline-year-future {
+    margin-left: -25px;
+}
+
+.timeline-year:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-4px);
+}
+
+/* ACTIVE YEAR */
+
+.timeline-year.active {
+    background: white;
+    color: black;
+    border-color: white;
+    box-shadow: 0 0 25px rgba(255,255,255,0.25);
+}
+
+/* ========================================= */
+/* CONTENT AREA */
+/* ========================================= */
+
+.timeline-content {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    padding: 0 10%;
+}
+
+/* TIMELINE ITEMS */
+
+.timeline-item {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(40px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease,
+        visibility 0.8s;
+}
+
+/* ACTIVE ITEM */
+
+.timeline-item.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* IMAGE */
+
+.timeline-item img {
+    width: 100%;
+    max-width: 900px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+/* TEXT */
+
+.timeline-text {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.timeline-text h3 {
+    font-size: clamp(2rem, 4vw, 4rem);
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.timeline-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.75);
+}
+
