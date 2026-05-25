@@ -19,6 +19,13 @@
         font-size: 0.9rem;
     }
 
+  .timeline-year-future {
+        min-width: 85px;
+        padding: 14px 20px;
+        font-size: 0.9rem;
+        margin: 0px 0px 6px 12px;
+    }
+
     .timeline-content {
         min-height: 650px;
         padding: 0 20px;
