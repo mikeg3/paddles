@@ -41,7 +41,7 @@
     .timeline-event {
         flex-direction: column !important;
         gap: 35px;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
     }
 
     .timeline-event img {
