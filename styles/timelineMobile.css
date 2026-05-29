@@ -28,6 +28,11 @@
         font-size: 0.9rem;
     }
 
+    .timeline-year-future{
+        min-width: 110px;
+        margin-left: 4px;
+    }
+
     .timeline-content {
         min-height: 1000px;
         padding: 0 20px;
