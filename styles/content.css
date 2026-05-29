@@ -1,7 +1,7 @@
 .content {
     background: radial-gradient(ellipse at right,
             transparent 5%,
-            rgba(39, 19, 187, 0.81) 100%);
+            rgba(0, 0, 0, 0.81) 100%);
 }
 
 .bio p {
@@ -58,5 +58,11 @@
     text-shadow: 15px 2px 25px rgba(255, 255, 255, 0.838);
     z-index: 2;
     font-family: "Permanent Marker", cursive;
+}
+
+/* FOOTER */
+#footer {
+    background-color: black;
+    color: white;
 }
 
