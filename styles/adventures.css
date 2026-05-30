@@ -1,0 +1,144 @@
+/* ========================================= */
+/* ADVENTURES SECTION */
+/* ========================================= */
+
+.featured-adventure{
+    padding:140px 8%;
+    background:linear-gradient(
+        to bottom,
+        #f4f4f4 0%,
+        #e3e3e3 100%
+    );
+}
+
+/* ========================================= */
+/* GRID */
+/* ========================================= */
+
+.adventure-grid{
+    display:grid;
+    grid-template-columns:
+        repeat(auto-fit,minmax(420px,1fr));
+    gap:50px;
+}
+
+/* ========================================= */
+/* CARD */
+/* ========================================= */
+
+.adventure-card{
+    position:relative;
+    display:block;
+    height:700px;
+    overflow:hidden;
+    border-radius:32px;
+    text-decoration:none;
+    color:white;
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,0.18);
+
+    transition:
+        transform 0.5s ease,
+        box-shadow 0.5s ease;
+}
+
+/* IMAGE */
+
+.adventure-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+    transition:
+        transform 8s ease;
+}
+
+/* OVERLAY */
+
+.adventure-overlay{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+
+    padding:50px;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0,0,0,0.85) 0%,
+            rgba(0,0,0,0.45) 35%,
+            rgba(0,0,0,0.05) 100%
+        );
+}
+
+/* LOCATION */
+
+.adventure-meta{
+    font-size:0.9rem;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    opacity:0.85;
+    margin-bottom:12px;
+}
+
+/* TITLE */
+
+.adventure-overlay h2{
+    margin:0;
+
+    font-size:3rem;
+    line-height:1;
+
+    font-weight:700;
+    overflow: hidden;
+}
+
+/* DESCRIPTION */
+
+.adventure-overlay p{
+    margin-top:20px;
+
+    max-width:500px;
+
+    font-size:1.1rem;
+    line-height:1.7;
+
+    opacity:0.92;
+}
+
+/* BUTTON */
+
+.adventure-button{
+    margin-top:28px;
+
+    font-size:1rem;
+
+    letter-spacing:1px;
+
+    display:inline-block;
+
+    transition:0.3s;
+}
+
+/* ========================================= */
+/* HOVER */
+/* ========================================= */
+
+.adventure-card:hover{
+    transform:translateY(-10px);
+
+    box-shadow:
+        0 30px 80px rgba(0,0,0,0.25);
+}
+
+.adventure-card:hover img{
+    transform:scale(1.08);
+}
+
+.adventure-card:hover .adventure-button{
+    transform:translateX(10px);
+}

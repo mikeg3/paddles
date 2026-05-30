@@ -10,6 +10,8 @@
 @import url('timelineMobile.css');
 @import url(about.css);
 @import url(aboutMobile.css);
+@import url(adventures.css);
+@import url(adventuresMobile.css);
 
 *, html, body {
     margin: 0;
