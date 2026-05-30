@@ -1,0 +1,51 @@
+/* ========================================= */
+/* MOBILE - ADVENTURE CARDS */
+/* ========================================= */
+
+@media (max-width:768px){
+
+    .featured-adventure{
+        padding:80px 20px;
+    }
+
+    .adventure-grid{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .adventure-card{
+        height:450px;
+        border-radius:24px;
+    }
+
+    .adventure-card img{
+        object-position:center;
+    }
+
+    .adventure-overlay{
+        padding:30px;
+    }
+
+    .adventure-meta{
+        font-size:0.75rem;
+        letter-spacing:2px;
+        margin-bottom:10px;
+    }
+
+    .adventure-overlay h2{
+        font-size:2rem;
+        line-height:1.05;
+    }
+
+    .adventure-overlay p{
+        margin-top:15px;
+        font-size:1rem;
+        line-height:1.5;
+    }
+
+    .adventure-button{
+        margin-top:20px;
+        font-size:0.95rem;
+    }
+
+}

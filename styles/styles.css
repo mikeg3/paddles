@@ -11,7 +11,7 @@
 @import url(about.css);
 @import url(aboutMobile.css);
 @import url(adventures.css);
-@import url(adventuresMobile.css);
+@import url(adventureMobile.css);
 
 *, html, body {
     margin: 0;
