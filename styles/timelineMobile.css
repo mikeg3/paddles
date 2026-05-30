@@ -4,6 +4,10 @@
 
 @media (max-width: 768px) {
 
+    #timeline{
+    scroll-margin-top:-210px;
+}
+
     .timeline-section {
         padding: 120px 0;
     }

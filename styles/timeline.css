@@ -1,6 +1,10 @@
 /* ========================================= */
 /* TIMELINE SECTION */
 /* ========================================= */
+#timeline{
+    scroll-margin-top:-160px;
+}
+
 .timeline-section {
     padding: 180px 0;
     background: #0f0f0f;
@@ -177,11 +181,35 @@
 }
 
 /* EVENT DESCRIPTION */
-
 .timeline-event-text p {
     font-size: 1.15rem;
     line-height: 1.9;
     color: rgba(255,255,255,0.75);
+}
+
+.timeline-navigation{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+
+/* NEXT YEAR BUTTON */
+#next-year-btn{
+    background:#222;
+    color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.7);
+    box-shadow: 0 0 8px rgba(255,255,255,0.25);
+    padding:16px 32px;
+    border-radius:50px;
+    font-size:1rem;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+#next-year-btn:hover{
+    background-color: rgba(255,255,255,0.8);
+    border: 2px solid rgba(255,255,255,0.2);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 @keyframes timelineFade {
