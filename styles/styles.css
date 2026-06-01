@@ -14,6 +14,8 @@
 @import url(adventureMobile.css);
 @import url(gallery.css);
 @import url(galleryMobile.css);
+@import url(galleryPage.css);
+@import url(galleryPageMobile.css);
 
 *, html, body {
     margin: 0;

@@ -1,0 +1,84 @@
+/* ========================================= */
+/*                   HEADER                  */
+/* ========================================= */
+.gallery-page-header { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    max-width: 100vw;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 1.0);
+}
+
+.gallery-regions{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    padding:120px 8%;
+
+        background:linear-gradient(
+        to bottom,
+        
+        #000000 0%,
+        #f8f8f8 30%,
+        #000000 40%,
+        #000000 50%,
+        #f4f4f4 80%,
+        #000000 100%
+    );
+}
+
+.region-card{
+    position:relative;
+    display:block;
+    height:500px;
+    overflow:hidden;
+    border-radius:30px;
+    text-decoration:none;
+}
+
+.region-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:transform 0.8s ease;
+}
+
+.region-card:hover img{
+    transform:scale(1.05);
+}
+
+.region-overlay{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+
+    padding:60px;
+
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.05)
+    );
+}
+
+.region-overlay h2{
+    color:white;
+    font-size:clamp(2.5rem,5vw,5rem);
+    margin:0;
+}
+
+.region-overlay p{
+    color:rgba(255,255,255,0.85);
+    margin-top:10px;
+    font-size:1.1rem;
+}
