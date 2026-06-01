@@ -60,4 +60,13 @@
         box-shadow: 0 10px 40px rgba(0,0,0,0.08);
     }
 
+    .imageA, .imageC {
+        margin-right: -20px;
+        margin-bottom: 10px;
+    }
+
+    .imageB, .imageD {
+        margin-left: -px;
+    }
+
 }
