@@ -1,0 +1,26 @@
+/* ========================================= */
+/* MOBILE */
+/* ========================================= */
+
+@media (max-width:768px){
+
+    .gallery-section{
+        padding:90px 30px;
+    }
+
+    .gallery-text p{
+        font-size:1rem;
+        line-height:1.8;
+    }
+
+    .gallery-link{
+        margin-top:50px;
+    }
+
+    .gallery-button{
+        width:100%;
+        max-width:320px;
+        padding:16px 20px;
+    }
+
+}
