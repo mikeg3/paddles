@@ -1,21 +1,3 @@
-/* ========================================= */
-/*                   HEADER                  */
-/* ========================================= */
-.gallery-page-header { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-    max-width: 100vw;
-    box-sizing: border-box;
-    background-color:rgba(0, 0, 0, 1.0);
-}
-
 .gallery-regions{
     display:flex;
     flex-direction:column;
