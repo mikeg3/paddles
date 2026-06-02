@@ -1,0 +1,135 @@
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    /* LOGO */
+    .logo h1 {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    /* HIDE DESKTOP NAV */
+    .desktop-nav-gallery {
+        display: none;
+    }
+
+    /* ------------------------------------- */
+    /* SHOW HAMBURGER */
+    /* ------------------------------------- */
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 22px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background: white;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    /* ------------------------------------- */
+    /* MOBILE NAV OVERLAY */
+    /* ------------------------------------- */
+
+    .mobile-nav-gallery {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.92);
+        backdrop-filter: blur(10px);
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.4s;
+        z-index: 1000;
+        background-image: url('../images/burger_menu_image.jpg');
+        background-size: cover;
+        border: 8px solid rgba(0, 0, 0, 0.95);
+        border-radius: 10px;
+    }
+
+    /* ------------------------------------- */
+    /* MOBILE NAV LINKS */
+    /* ------------------------------------- */
+    .mobile-nav-gallery ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile-nav-gallery li {
+        border-radius: 15px;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.95);
+    }
+    .mobile-nav-gallery li:hover {
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .mobile-nav-gallery a {
+        display: block;
+        padding: 14px 40px;
+        border: 2px solid rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        text-align: center;
+        transition:
+            opacity 0.3s ease,
+            background 0.3s ease;
+        box-sizing: border-box;
+    }
+
+    .mobile-nav-gallery a:hover {
+        opacity: 0.7;
+    }
+
+    /* ------------------------------------- */
+    /* TOGGLE MENU OPEN */
+    /* ------------------------------------- */
+
+    #mobile-menu-toggle:checked~.mobile-nav-gallery {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* ------------------------------------- */
+    /* HAMBURGER ANIMATION */
+    /* ------------------------------------- */
+
+    #mobile-menu-toggle:checked+.hamburger span:nth-child(1) {
+        transform:
+            rotate(45deg) translate(7px, 7px);
+    }
+
+    #mobile-menu-toggle:checked+.hamburger span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu-toggle:checked+.hamburger span:nth-child(3) {
+        transform:
+            rotate(-45deg) translate(7px, -7px);
+    }
+
+}

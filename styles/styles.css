@@ -18,6 +18,8 @@
 @import url(galleryPageMobile.css);
 @import url(galleries.css);                   /* ACTUAL GALLERY */
 @import url(galleriesMobile.css);
+@import url(galleriesMenu.css);                   /* ACTUAL GALLERY */
+@import url(galleriesMenuMobile.css);
 
 *, html, body {
     margin: 0;
