@@ -37,13 +37,13 @@ body {
 
 .gallery-year{
     margin-top: -60px;
-    margin-bottom: 20px;
 }
 
 .gallery-year h2{
     font-size:2.5rem;
     text-align:center;
     font-family:'Story Script',cursive;
+    margin-bottom: 20px;
 }
 
 .gallery-grid{
