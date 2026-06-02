@@ -68,7 +68,7 @@
 /* ========================================= */
 .gallery-link{
     text-align:center;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -84,6 +84,7 @@
     letter-spacing:1px;
     transition:all 0.35s ease;
     box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    margin-top: 20px;
 }
 
 .gallery-button:hover{
