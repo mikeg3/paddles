@@ -12,10 +12,12 @@
 @import url(aboutMobile.css);
 @import url(adventures.css);
 @import url(adventureMobile.css);
-@import url(gallery.css);
+@import url(gallery.css);                     /* INDEX.HTML GALLERY SECTION */
 @import url(galleryMobile.css);
-@import url(galleryPage.css);
+@import url(galleryPage.css);                 /* GATEWAY TO ALL GALLERIES */
 @import url(galleryPageMobile.css);
+@import url(galleries.css);                   /* ACTUAL GALLERY */
+@import url(galleriesMobile.css);
 
 *, html, body {
     margin: 0;
