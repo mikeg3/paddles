@@ -76,6 +76,9 @@ body {
 
 .gallery-image:hover{
     transform:scale(1.02);
+    /*
+    border: 2px solid #000;
+    */
 }
 
 .gallery-quote{
