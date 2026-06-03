@@ -1,5 +1,4 @@
 /* ACTUAL GALLERY MOBILE */
-
 .gallery-section{
     max-width:1600px;
     margin:auto;
@@ -9,5 +8,23 @@
 
 .gallery-header{
     text-align:center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.gallery-year{
+    text-align:center;
+    margin-top: 10px;
+}
+
+.gallery-quote{
+    padding: 15px 0;
+    text-align:center;
+}
+
+.gallery-quote p{
+    font-family:'Story Script',cursive;
+    font-size:clamp(2rem,4vw,5rem);
+    max-width:1200px;
+    margin:auto;
+    color:#222;
 }
