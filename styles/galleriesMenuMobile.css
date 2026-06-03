@@ -1,6 +1,8 @@
+/* ACTUAL GALLERY MOBILE MENU */
+
 @media (max-width: 768px) {
 
-    header {
+    .gallery-menu-header {
         padding: 20px;
     }
 
