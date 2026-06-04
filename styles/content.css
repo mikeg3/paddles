@@ -30,6 +30,10 @@
             #d9d9d9 100%);
     border-top: 3px solid rgba(0,0,0,0.85);
     border-bottom: 3px solid rgba(0,0,0,0.85);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* QUOTE TILE */

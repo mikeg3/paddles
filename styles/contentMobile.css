@@ -3,6 +3,8 @@
     /* SECTION DIVIDER */
     .section-divider {
         height: 23vh;
+        padding: 0;
+        margin: 0;
     }
 
     /* QUOTE TILE */
@@ -10,13 +12,14 @@
         position: relative;
         width: 97%;
         height: 22vh;
+        padding: 0;
+        margin: 0;
     }
 
     /* QUOTE */
     .quote {
         padding: 4vh 0;
     }
-
 
     .gallery-image {
         width: 100%;
