@@ -77,7 +77,7 @@ body {
 
 .gallery-image:hover{
     transform:scale(1.01);
-    border: 2px solid rgba(0,0,0,0);
+    border: 2px solid rgba(0,0,0,1);
 }
 
 .gallery-quote{
