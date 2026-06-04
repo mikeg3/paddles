@@ -85,6 +85,14 @@ body {
     text-align:center;
 }
 
+.gallery-quote-mobile{
+    display:none;
+}
+
+.gallery-quote-mobile p{
+    display:none;
+}
+
 .gallery-quote p{
     font-family:'Story Script',cursive;
     font-size:clamp(2rem,4vw,5rem);
