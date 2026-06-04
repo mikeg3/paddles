@@ -85,11 +85,7 @@ body {
     text-align:center;
 }
 
-.gallery-quote-mobile{
-    display:none;
-}
-
-.gallery-quote-mobile p{
+.gallery-quote-mobile, .gallery-quote-mobile p{
     display:none;
 }
 
