@@ -37,13 +37,9 @@
 }
 
 /* HEADER */
+/*
 .adventure-header-container {
-    /*
-    background-color: #eeeeee;
-    */
-    /*
     background: linear-gradient(45deg, #000000, #eeeeee, #555555, #f4f4f48e, #eeeeee, #eeeeee, #f4f4f48e, #eeeeee, #000000);
-    */
     background-color: white;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
     border: 2px solid black;
@@ -54,10 +50,11 @@
     justify-self: center;
     width: 66%;
 }
+*/
 
 .adventure-header {
     font-size: 50px;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
     font-family: "Indie Flower", cursive;
     text-align: center;
