@@ -13,11 +13,24 @@ body {
     );
 }
 
-.gallery-section{
+.gallery-section{ 
     max-width:1600px;
     margin:auto;
     padding: 80px 5%;
     margin-top: 25px;
+    background:linear-gradient(
+        to bottom,
+        #f4f4f4 0%,
+        #f8f8f8 10%,
+        #aaaaaa 25%,
+        #f8f8f8 30%,
+        #aaaaaa 40%,
+        #999999 50%,
+        #f4f4f4 80%,
+        #999999 90%,
+        #f4f4f4 100%
+    );
+    border-radius: 25px;
 }
 
 .gallery-header{
