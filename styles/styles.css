@@ -21,6 +21,7 @@
 @import url(galleriesMenu.css);                   /* ACTUAL GALLERY */
 @import url(galleriesMenuMobile.css);
 @import url(videoSection.css);
+@import url(socialMedia.css);
 
 *, html, body {
     margin: 0;
