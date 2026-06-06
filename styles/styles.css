@@ -20,6 +20,7 @@
 @import url(galleriesMobile.css);
 @import url(galleriesMenu.css);                   /* ACTUAL GALLERY */
 @import url(galleriesMenuMobile.css);
+@import url(videoSection.css);
 
 *, html, body {
     margin: 0;
