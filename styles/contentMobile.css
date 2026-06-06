@@ -1,7 +1,9 @@
 @media (max-width: 768px) {
 
+    /* ========================================= */
     /* SECTION DIVIDER */
     .section-divider {
+        width: 100%;
         height: 23vh;
         padding: 0;
         margin: 0;
@@ -9,9 +11,8 @@
 
     /* QUOTE TILE */
     .quote-container {
-        position: relative;
-        width: 97%;
-        height: 22vh;
+        width: 100%;
+        height: 23vh;
         padding: 0;
         margin: 0;
     }
@@ -20,6 +21,8 @@
     .quote {
         padding: 4vh 0;
     }
+
+    /* ========================================= */
 
     .gallery-image {
         width: 100%;
