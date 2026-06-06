@@ -3,55 +3,10 @@
 /* ========================================= */
 .featured-adventure {
     padding: 30px 8%; /*SPACE BETWEEN TOPW CARD ANDSECTION HEADER, CARD WIDTH*/
-    /*
-    background:linear-gradient(
-        to bottom,
-        #000000 0%,
-        #f4f4f48e 30%,
-        #000000 45%,
-        #000000 60%,
-        #f4f4f48e 70%,
-        #000000 95%,
-        #000000 100%
-        /*
-        #f4f4f48e 0%,
-        #000000 25%,
-        #000000 75%,
-        #f4f4f48e 100%
-        */
-
-    /*
-        #f4f4f48e 0%,
-        #000000 30%,
-        #000000 45%,
-        #000000 55%,
-        #000000 70%,
-        #f4f4f48e 100%
-        */
-
-    /*);*/
-
-    
-        background: linear-gradient(45deg, #000000, #555555, #f4f4f48e, #eeeeee, #eeeeee, #f4f4f48e, #000000);
-
+    background: linear-gradient(45deg, #000000, #555555, #f4f4f48e, #eeeeee, #eeeeee, #f4f4f48e, #000000);
 }
 
 /* HEADER */
-/*
-.adventure-header-container {
-    background: linear-gradient(45deg, #000000, #eeeeee, #555555, #f4f4f48e, #eeeeee, #eeeeee, #f4f4f48e, #eeeeee, #000000);
-    background-color: white;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
-    border: 2px solid black;
-    width: fit-content;
-    padding: 0 25px;
-    border-radius: 45px;
-    margin-top: 20px;
-    justify-self: center;
-    width: 66%;
-}
-*/
-
 .adventure-header {
     font-size: 50px;
     margin-top: 15px;
