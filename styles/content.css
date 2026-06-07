@@ -35,6 +35,19 @@
     padding-bottom: 0;
 }
 
+.section-divider-2 {
+    height: 32px;
+    background:
+        linear-gradient(to bottom,
+            #000000 0%,
+            #111111 25%,
+            #444444 50%,
+            #111111 75%,
+            #000000 100%
+            );
+
+}
+
 /* QUOTE TILE */
 .quote-container {
     position: relative;
