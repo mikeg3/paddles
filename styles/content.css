@@ -79,7 +79,13 @@
 
 /* FOOTER */
 #footer {
+    padding: 8px 20px;
     background-color: black;
     color: white;
+}
+
+.footer-text {
+    font-family: "Annie Use Your Telescope";
+    font-size: 24px;
 }
 
