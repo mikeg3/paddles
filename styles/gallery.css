@@ -17,13 +17,13 @@
 /* ========================================= */
 /* GALLERY HEADER */
 /* ========================================= */
-.gallery-header{
+.index-page-gallery-header{
     display:flex;
     justify-content:center;
     margin-bottom:60px;
 }
 
-.gallery-header h2{
+.index-page-gallery-header h2{
     width: 98%;
     text-align:center;
     margin:0;
