@@ -1,4 +1,4 @@
-const galleryImages=document.querySelectorAll('.gallery-image');
+const galleryImages=document.querySelectorAll('.gallery-image, .gallery-image-style2');
 
 const lightbox=document.getElementById('lightbox');
 const lightboxImage=document.getElementById('lightbox-image');
