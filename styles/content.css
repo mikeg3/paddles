@@ -33,6 +33,7 @@
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
+    overflow: hidden;
 }
 
 .section-divider-2 {
@@ -45,7 +46,7 @@
             #111111 75%,
             #000000 100%
             );
-
+    overflow: hidden;
 }
 
 /* QUOTE TILE */
@@ -74,6 +75,7 @@
     text-shadow: 15px 2px 25px rgba(255, 255, 255, 0.838);
     z-index: 2;
     font-family: "Permanent Marker", cursive;
+    overflow: hidden;
 }
 /* ========================================= */
 
