@@ -22,6 +22,8 @@
 @import url(galleriesMenuMobile.css);
 @import url(videoSection.css);
 @import url(socialMedia.css);
+@import url(galleries_KillarneyBay.css);
+@import url(galleries_KillarneyBay_Mobile.css);
 
 *, html, body {
     margin: 0;

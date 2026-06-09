@@ -1,0 +1,17 @@
+@media (max-width:768px){
+
+    .gallery-row {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin: 40px auto;
+    }
+
+    .gallery-row img {
+        height: 350px;
+    }
+
+    .gallery-feature {
+        margin: 40px auto;
+    }
+
+}
