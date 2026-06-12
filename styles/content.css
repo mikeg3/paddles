@@ -36,8 +36,9 @@
     overflow: hidden;
 }
 
+/* BLACK GRAY GRADIENT LINE */
 .section-divider-2 {
-    height: 32px;
+    height: 25px;
     background:
         linear-gradient(to bottom,
             #000000 0%,
