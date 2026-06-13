@@ -24,11 +24,11 @@
 @import url(socialMedia.css);
 @import url(galleries_Style2.css);
 @import url(galleries_Style2_Mobile.css);
+@import url(map.css);
 
 *, html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
