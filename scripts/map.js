@@ -293,6 +293,7 @@ L.marker([45.369463, -72.252020])
 .bindPopup(`
     <h3>Lac Stukely</h3>
     <p>A small lake in Parc Orford in South Eastern Quebec</p>
+    <img src="images/gallery/LacStukley.jpg" style="width:250px;border-radius:10px;">
 `);
 
 /* ========================================= */
@@ -304,3 +305,7 @@ L.marker([46.228008, -72.626776])
     <h3>Nicolet</h3>
     <p>Access point to the more open Lac Saint Pierre, in the Saint Lawrence River</p>
 `);
+
+/* ========================================= */
+/* Sainte Barbe, Qc */
+/* ========================================= */
