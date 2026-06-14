@@ -1,12 +1,11 @@
-const map = L.map('map').setView([46.5, -81.5], 6);
+const map = L.map('map').setView([46.5, -81.1], 6);
 
 /* ========================================= */
 /*               INITIAL MAP                 */
 /* ========================================= */
 L.tileLayer(
-    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
     {
-        attribution: '&copy; OpenStreetMap contributors',
         maxZoom: 18
     }
 ).addTo(map);
@@ -54,21 +53,60 @@ L.marker([44.339, -76.028])
 /* ========================================= */
 /* BRUCE PENINSULA */
 /* ========================================= */
-L.marker([45.244, -81.534])
+
+/* ========================================= */
+/* LIONS HEAD */
+/* ========================================= */
+L.marker([44.988315, -81.250822])
 .addTo(map)
 .bindPopup(`
-    <h3>Bruce Peninsula</h3>
-    <p>Where I first discovered turquoise water in Ontario.</p>
+    <h3>Lions Head</h3>
+    <p>A favorite destination of mine on the Bruce Peninsula</p>
+    <img src="images/gallery/bruce/Lions_Head10.jpg" style="width:250px;border-radius:10px;">
 `);
 
 /* ========================================= */
-/* BENJAMIN ISLANDS*/
+/* DUNKS BAY */
+/* ========================================= */
+L.marker([45.249494, -81.643609])
+.addTo(map)
+.bindPopup(`
+    <h3>Dunk's Bay</h3>
+    <p>Where I first discovered clear emerald waters in Ontario</p>
+    <img src="images/gallery/bruce/DunksBay.jpg" style="width:250px;border-radius:10px;">
+`);
+
+/* ========================================= */
+/* DYERS BAY */
+/* ========================================= */
+L.marker([45.163133, -81.336435])
+.addTo(map)
+.bindPopup(`
+    <h3>Dyer's Bay</h3>
+    <p>Access Point to a quieter yet epic scenary on the Bruce Peninsula</p>
+    <img src="images/gallery/bruce/DyersBay.jpg" style="width:250px;border-radius:10px;">
+`);
+
+/* ========================================= */
+/* GROTTO */
+/* ========================================= */
+L.marker([45.245216, -81.524196])
+.addTo(map)
+.bindPopup(`
+    <h3>The Grotto</h3>
+    <p>A perfect destination for a day trip along the Bruce Peninsula</p>
+    <img src="images/gallery/bruce/Grotto.jpg" style="width:250px;border-radius:10px;">
+`);
+
+/* ========================================= */
+/* BENJAMIN ISLANDS */
 /* ========================================= */
 L.marker([46.089078, -82.252460])
 .addTo(map)
 .bindPopup(`
     <h3>Benjamin Islands</h3>
-    <p></p>
+    <p>Multi-night trips, one of favourite destinations so far</p>
+    <img src="images/adventures/Benjis2025.jpg" style="width:250px;border-radius:10px;">
 `);
 
 /* ========================================= */
@@ -77,8 +115,9 @@ L.marker([46.089078, -82.252460])
 L.marker([46.183668, -82.360327])
 .addTo(map)
 .bindPopup(`
-    <h3>Launch from Spanish Marina</h3>
-    <p></p>
+    <h3>Spanish Marina</h3>
+    <p>Access point for the Benjamin Islands and other North Channel adventures</p>
+    <img src="images/gallery/northChannel/SpanishMarina.jpg" style="width:250px;border-radius:10px;">
 `);
 
 /* ========================================= */
@@ -88,7 +127,19 @@ L.marker([46.131733, -82.192341])
 .addTo(map)
 .bindPopup(`
     <h3>Launch from McBean Harbor</h3>
-    <p></p>
+    <p>Shortcut to the Benjamin Islands for my second trip</p>
+    <img src="images/gallery/northChannel/McBean.jpg" style="width:250px;border-radius:10px;">
+`);
+
+/* ========================================= */
+/* Fox Island */
+/* ========================================= */
+L.marker([46.115635, -82.226179])
+.addTo(map)
+.bindPopup(`
+    <h3>Fox Island</h3>
+    <p>A labrynthe of rocks, islands, channels and pines</p>
+    <img src="images/gallery/northChannel/Fox Island 2.jpg" style="width:250px;border-radius:10px;">
 `);
 
 
@@ -180,5 +231,76 @@ L.marker([45.666430, -82.270689])
 .addTo(map)
 .bindPopup(`
     <h3>Providence Bay</h3>
-    <p></p>
+    <p>An unexpectedly beautiful shore after launching from a sandy beach</p>
+    <img src="images/gallery/ProvidenceBay.jpg" style="width:250px;border-radius:10px;">
+`);
+
+/* ========================================= */
+/*     PRINCE EDWARD COUNTY - PRESQU'ILE    */
+/* ========================================= */
+L.marker([44.010694, -77.704297])
+.addTo(map)
+.bindPopup(`
+    <h3>Presqu'ile Provincial Park</h3>
+    <p>A park in Lake Ontario, visited during a long weekend</p>
+`);
+
+/* ========================================= */
+/* LACHINE */
+/* ========================================= */
+L.marker([45.432760, -73.692531])
+.addTo(map)
+.bindPopup(`
+    <h3>Lachine</h3>
+    <p>My home base where I can launch of for an evening paddle after work</p>
+`);
+
+/* ========================================= */
+/* DOWKER ISLAND */
+/* ========================================= */
+L.marker([45.402868, -73.896060])
+.addTo(map)
+.bindPopup(`
+    <h3>Dowker Island</h3>
+    <p>A fun island to paddle around close to where I live</p>
+`);
+
+/* ========================================= */
+/* Les Coteaux */
+/* ========================================= */
+L.marker([45.255512, -74.207714])
+.addTo(map)
+.bindPopup(`
+    <h3>Les Coteaux</h3>
+    <p>A small stretch in the Saint-Lawrence RIver where the water turns turquoise</p>
+`);
+
+/* ========================================= */
+/* Long Sault Parkway */
+/* ========================================= */
+L.marker([45.003807, -74.915544])
+.addTo(map)
+.bindPopup(`
+    <h3>Long Sault Parkway</h3>
+    <p>11 Islands in a chain in the Saint-Lawrence River</p>
+`);
+
+/* ========================================= */
+/* LAC STUKLEY */
+/* ========================================= */
+L.marker([45.369463, -72.252020])
+.addTo(map)
+.bindPopup(`
+    <h3>Lac Stukely</h3>
+    <p>A small lake in Parc Orford in South Eastern Quebec</p>
+`);
+
+/* ========================================= */
+/* Nicolet, Qc */
+/* ========================================= */
+L.marker([46.228008, -72.626776])
+.addTo(map)
+.bindPopup(`
+    <h3>Nicolet</h3>
+    <p>Access point to the more open Lac Saint Pierre, in the Saint Lawrence River</p>
 `);
