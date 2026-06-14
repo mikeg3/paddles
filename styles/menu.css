@@ -58,6 +58,7 @@ nav ul {
     display: flex;
     gap: 20px;
     list-style: none;
+    transform: translateY(6px);
 }
 
 nav li {
