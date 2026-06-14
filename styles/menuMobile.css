@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
     header {
         padding: 20px;
@@ -40,7 +40,6 @@
     /* ------------------------------------- */
     /* MOBILE NAV OVERLAY */
     /* ------------------------------------- */
-
     .mobile-nav {
         display: flex;
         position: fixed;
@@ -80,7 +79,9 @@
         border-radius: 15px;
         margin: 0;
         background: rgba(0, 0, 0, 0.95);
+        width: 100%;
     }
+
     .mobile-nav li:hover {
         background: rgba(0, 0, 0, 0.2);
     }
@@ -105,10 +106,18 @@
         opacity: 0.7;
     }
 
+    /* ========================================= */
+    /* MAP ICON */
+    /* ========================================= */
+    .map-icon {
+        color: white;
+        height: 1.8rem;
+        transform: translateY(4px);
+    }
+
     /* ------------------------------------- */
     /* TOGGLE MENU OPEN */
     /* ------------------------------------- */
-
     #mobile-menu-toggle:checked~.mobile-nav {
         opacity: 1;
         visibility: visible;
@@ -117,7 +126,6 @@
     /* ------------------------------------- */
     /* HAMBURGER ANIMATION */
     /* ------------------------------------- */
-
     #mobile-menu-toggle:checked+.hamburger span:nth-child(1) {
         transform:
             rotate(45deg) translate(7px, 7px);
