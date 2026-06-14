@@ -25,6 +25,15 @@ header {
     letter-spacing: 2px;
     text-decoration: none;
 }
+.logo h1 {
+    padding: 5px 15px;
+}
+
+.logo:hover{
+    background: rgba(255,255,255,0.2);
+    opacity: 0.9;
+    border-radius: 10px;
+}
 
 /* ========================================= */
 /* MAP ICON */
@@ -71,8 +80,11 @@ nav a {
 }
 
 /* Hover Effect */
-
 nav a:hover {
     background: rgba(255,255,255,0.2);
     opacity: 0.9;
+}
+
+.map-icon-a-link:hover{
+    background: rgba(0, 0, 0, 0.0);
 }
