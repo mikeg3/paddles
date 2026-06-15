@@ -411,7 +411,7 @@ L.marker([45.189563, -74.191540])
 /* ========================================= */
 /*            Benjis from McBean             */
 /* ========================================= */
-
+/*
 var McBeanToBenjaminRoute = {
     "type": "LineString",
     "coordinates": [
@@ -432,7 +432,7 @@ var paddleRouteStyle = {
 L.geoJSON(McBeanToBenjaminRoute, {
     style: paddleRouteStyle
 }).addTo(map);
-
+*/
 
 /* ========================================= */
 /*                  CAMP SITES               */
