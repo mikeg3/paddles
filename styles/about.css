@@ -5,6 +5,7 @@
 .about-section {
     position: relative;
     padding: 120px 20px;
+    /*
     background:
         linear-gradient(
             180deg,
@@ -14,6 +15,7 @@
             #2e2e2e 75%,
             #000000 100%
         );
+        */
     overflow: hidden;
 }
 
@@ -35,8 +37,10 @@
 }
 
 .about-header {
+    background-color: #e5e5e5;
     text-align: center;
     margin-bottom: 70px;
+    border-radius: 50px;
 }
 
 .about-header h2 {
@@ -68,7 +72,7 @@
 /* ========================================= */
 
 .life-lessons-card {
-    background: linear-gradient(to bottom, #777777, #000000);
+    background: linear-gradient(to bottom, #e5e5e5, #000000);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.85);
     border-radius: 24px;

@@ -13,7 +13,10 @@ L.tileLayer(
 /* ========================================= */
 /* Algonquin Park */
 /* ========================================= */
-L.marker([45.533712, -78.704942])
+L.marker([45.533712, -78.704942], {
+    fillColor: "#ff6600",
+    color: "#ff6600"
+})
 .addTo(map)
 .bindPopup(`
     <h3>Algonquin Park</h3>
@@ -27,7 +30,7 @@ L.marker([46.660477, -73.018113])
 .addTo(map)
 .bindPopup(`
     <h3>Mauricie National Park</h3>
-    <p>My first experience paddling a fjord landscape.</p>
+    <p>First kayak camping trip location</p>
 `);
 
 /* ========================================= */
@@ -400,3 +403,47 @@ L.marker([45.189563, -74.191540])
     <h3>Sainte-Brabe, Qc</h3>
     <p>Last paddle of 2025 exploring a new area</p>
 `);
+
+
+/* ========================================= */
+/*                PADDLE ROUTES              */
+/* ========================================= */
+/* ========================================= */
+/*            Benjis from McBean             */
+/* ========================================= */
+
+var McBeanToBenjaminRoute = {
+    "type": "LineString",
+    "coordinates": [
+        [-82.191744, 46.131645],
+        [-82.197375, 46.125024],
+        [-82.198878, 46.120640],
+        [-82.201754, 46.116744],
+        [-82.204011, 46.111530]
+    ]
+};
+
+var paddleRouteStyle = {
+    color: "#ff7800",
+    weight: 6,
+    opacity: 0.9
+};
+
+L.geoJSON(McBeanToBenjaminRoute, {
+    style: paddleRouteStyle
+}).addTo(map);
+
+
+/* ========================================= */
+/*                  CAMP SITES               */
+/* ========================================= */
+/*  NORTH BENJAMIN 1    */
+/*  NORTH BENJAMIN 2    */
+/*  MCGREGOR BAY    */
+/*  WEST FOX    */
+/*  MARTINS ISLAND    */
+/*  THOMAS BAY    */
+/*  SNUG HARBOR    */
+
+/*  AUBREY ISLAND    */
+/*  BEAUSOLEIL    */

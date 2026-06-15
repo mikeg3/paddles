@@ -3,15 +3,14 @@
 /* ========================================= */
 
 .hero-slideshow {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    z-index: -1;
 }
 
-.loading p {
-    z-index: -2;
-}
 
 /* ========================================= */
 /* SLIDES */
