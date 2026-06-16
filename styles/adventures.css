@@ -7,6 +7,15 @@
 }
 
 /* HEADER */
+.adventures-main-header{
+    font-family: permanent marker;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .adventure-header {
     font-size: 50px;
     margin-top: 15px;

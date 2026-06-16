@@ -2,130 +2,141 @@
 /* VIDEO SECTION */
 /* ========================================= */
 
-.video-section{
-padding:140px 8%;
-background:#111;
-color:white;
+.video-section {
+    padding: 80px 8%;
+    background: #111;
+    color: white;
 }
 
-.video-header{
-max-width:900px;
-margin:0 auto 80px;
-text-align:center;
+.video-header {
+    max-width: 900px;
+    margin: 0 auto 80px;
+    text-align: center;
 }
 
-.video-header h2{
-font-size:clamp(2.8rem,5vw,5rem);
-margin-bottom:30px;
-letter-spacing:2px;
+.video-header h2 {
+    font-size: clamp(2.8rem, 5vw, 5rem);
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-family: Permanent Marker;
+    text-shadow: 15px 2px 25px rgba(255, 255, 255, 0.838);
+    text-decoration: underline;
 }
 
-.video-header p{
-font-size:1.1rem;
-line-height:1.9;
-color:rgba(255,255,255,0.85);
+.featured-video-header {
+    text-align: center;
+    font-family: Rock Salt;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
-.featured-video{
-max-width:1400px;
-margin:0 auto 100px;
+.video-header p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: rgba(255, 255, 255, 0.85);
 }
 
-.featured-video iframe{
-width:100%;
-aspect-ratio:16/9;
-border:none;
-border-radius:24px;
+.featured-video {
+    max-width: 1400px;
+    margin: 0 auto 100px;
 }
 
-.featured-video-text{
-margin-top:30px;
-text-align:center;
+.featured-video iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+    border-radius: 24px;
+    border: solid 2px white;
 }
 
-.featured-video-text h3{
-font-size:2rem;
-margin-bottom:15px;
+.featured-video-text {
+    margin-top: 30px;
+    text-align: center;
 }
 
-.featured-video-text p{
-max-width:900px;
-margin:auto;
-line-height:1.8;
-color:rgba(255,255,255,0.8);
+.featured-video-text h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
-.video-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
-gap:40px;
+.featured-video-text p {
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.video-card{
-background:rgba(255,255,255,0.04);
-border-radius:20px;
-overflow:hidden;
-transition:0.35s;
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
 }
 
-.video-card:hover{
-transform:translateY(-8px);
+.video-card {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.35s;
 }
 
-.video-card iframe{
-width:100%;
-aspect-ratio:16/9;
-border:none;
+.video-card:hover {
+    transform: translateY(-8px);
 }
 
-.video-card h4{
-padding:25px 25px 10px;
-font-size:1.4rem;
+.video-card iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
 }
 
-.video-card p{
-padding:0 25px 30px;
-line-height:1.7;
-color:rgba(255,255,255,0.75);
+.video-card h4 {
+    padding: 25px 25px 10px;
+    font-size: 1.4rem;
 }
 
-.video-footer{
-text-align:center;
-margin-top:80px;
+.video-card p {
+    padding: 0 25px 30px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.75);
 }
 
-.youtube-button{
-display:inline-block;
-padding:16px 40px;
-border:2px solid white;
-border-radius:999px;
-text-decoration:none;
-color:white;
-font-weight:600;
-transition:0.3s;
+.video-footer {
+    text-align: center;
+    margin-top: 80px;
 }
 
-.youtube-button:hover{
-background:white;
-color:black;
+.youtube-button {
+    display: inline-block;
+    padding: 16px 40px;
+    border: 2px solid white;
+    border-radius: 999px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.youtube-button:hover {
+    background: white;
+    color: black;
 }
 
 /* ========================================= */
 /* MOBILE */
 /* ========================================= */
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-.video-section{
-    padding:90px 30px;
-}
+    .video-section {
+        padding: 90px 30px;
+    }
 
-.video-grid{
-    grid-template-columns:1fr;
-}
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
 
-.video-header h2{
-    margin-bottom:20px;
-}
+    .video-header h2 {
+        margin-bottom: 20px;
+    }
 
 }

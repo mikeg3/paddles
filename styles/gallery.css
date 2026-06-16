@@ -20,13 +20,14 @@
 }
 
 .index-page-gallery-header h2{
+    font-family: Permanent Marker;
     width: 98%;
     text-align:center;
     margin:0;
     padding:18px 50px;
     background:rgba(255,255,255,0.8);
     color:#111;
-    font-size:clamp(2.5rem,5vw,4.5rem);
+    font-size:clamp(2.5rem,5vw, 5rem);
     font-weight:300;
     letter-spacing:4px;
     text-transform:uppercase;
@@ -72,12 +73,12 @@
 
 .gallery-button{
     display:inline-block;
-    padding: 18px 42px;
+    padding: 28px 72px;
     border-radius:50px;
     background:#111;
     color:white;
     text-decoration:none;
-    font-size:1rem;
+    font-size:2rem;
     font-weight:600;
     letter-spacing:1px;
     transition:all 0.35s ease;
