@@ -6,6 +6,7 @@
     padding: 80px 8%;
     background: #111;
     color: white;
+    border-radius: 30px;
 }
 
 .video-header {
@@ -19,7 +20,7 @@
     margin-bottom: 30px;
     letter-spacing: 2px;
     font-family: Permanent Marker;
-    text-shadow: 15px 2px 25px rgba(255, 255, 255, 0.838);
+    text-shadow: 15px 2px 20px rgba(255, 255, 255, 0.838);
     text-decoration: underline;
 }
 
@@ -57,6 +58,7 @@
 .featured-video-text h3 {
     font-size: 2rem;
     margin-bottom: 15px;
+    font-family: rock salt;
 }
 
 .featured-video-text p {
@@ -77,6 +79,10 @@
     border-radius: 20px;
     overflow: hidden;
     transition: 0.35s;
+}
+
+.video-card h4 {
+    font-family: rock salt;
 }
 
 .video-card:hover {
@@ -127,8 +133,20 @@
 
 @media (max-width:768px) {
 
+    .video-header h2 {
+        font-size: 18vw;
+        text-decoration: none;
+        padding-top: -10px;
+        padding-bottom: 20px;
+    }
+
+    .video-header p {
+        font-family: rock salt;
+    }
+
     .video-section {
-        padding: 90px 30px;
+        padding: 60px 30px;
+
     }
 
     .video-grid {

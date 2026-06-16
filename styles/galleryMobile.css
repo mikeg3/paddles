@@ -6,6 +6,11 @@
 
 @media (max-width:768px){
 
+    .index-page-gallery-header h2{
+        font-size: 12vw;
+        text-align: center;
+    }
+
     .gallery-section{
         padding: 40px 30px;
     }
@@ -24,6 +29,7 @@
         width:100%;
         max-width:320px;
         padding: 20px 20px;
+        font-size: 20px;
     }
 
 }

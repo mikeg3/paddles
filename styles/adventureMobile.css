@@ -4,10 +4,13 @@
 
 @media (max-width:768px){
 
+    .adventures-main-header{
+        font-size: 14vw;
+    }
+
     .featured-adventure{
         padding: 25px 20px;
-         background: linear-gradient(45deg, #f4f4f4, #eeeeee, #000000, #f4f4f4, #555555, #f4f4f4, #eeeeee, #f4f4f4, #000000, #f4f4f4, #f4f4f4);
-
+        background: linear-gradient(45deg, #f4f4f4, #eeeeee, #000000, #f4f4f4, #555555, #f4f4f4, #eeeeee, #f4f4f4, #000000, #f4f4f4, #f4f4f4);
     }
 
     .adventure-grid{
