@@ -20,10 +20,18 @@
 
 .adventure-header {
     font-size: 50px;
-    margin-top: 15px;
+    margin-top: 45px;
     margin-bottom: 5px;
-    font-family: "Indie Flower", cursive;
+    font-family: "rock salt", cursive;
     text-align: center;
+}
+
+.adventures-divider {
+    width: 620px;
+    height: 3px;
+    background: linear-gradient(to right, #000, #999);
+    margin: 0 auto 30px auto;
+    border-radius: 50px;
 }
 
 /* ========================================= */

@@ -2,55 +2,73 @@
 /* MOBILE - ADVENTURE CARDS */
 /* ========================================= */
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    .adventures-main-header{
+    .adventures-main-header {
         font-size: 14vw;
+        margin-bottom: -20px;
     }
 
-    .featured-adventure{
+    .adventure-header {
+        font-size: 30px;
+        margin-top: 45px;
+        margin-bottom: 0px;
+        font-family: "Rock Salt", cursive;
+        text-align: center;
+    }
+
+    .adventures-divider {
+        width: 220px;
+        height: 3px;
+        background: linear-gradient(to right, #000, #999);
+        margin: 0 auto 30px auto;
+        border-radius: 50px;
+    }
+
+
+    .featured-adventure {
         padding: 25px 20px;
         background: linear-gradient(45deg, #f4f4f4, #eeeeee, #000000, #f4f4f4, #555555, #f4f4f4, #eeeeee, #f4f4f4, #000000, #f4f4f4, #f4f4f4);
     }
 
-    .adventure-grid{
-        grid-template-columns:1fr;
-        gap:30px;
+    .adventure-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
-    .adventure-card{
-        height:450px;
-        border-radius:24px;
+    .adventure-card {
+        height: 450px;
+        border-radius: 24px;
     }
 
-    .adventure-card img{
-        object-position:center;
+    .adventure-card img {
+        object-position: center;
     }
 
-    .adventure-overlay{
-        padding:30px;
+    .adventure-overlay {
+        padding: 30px;
     }
 
-    .adventure-meta{
-        font-size:0.75rem;
-        letter-spacing:2px;
-        margin-bottom:10px;
+    .adventure-meta {
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
     }
 
-    .adventure-overlay h2{
-        font-size:2rem;
-        line-height:1.05;
+    .adventure-overlay h2 {
+        font-size: 2rem;
+        line-height: 1.05;
     }
 
-    .adventure-overlay p{
-        margin-top:15px;
-        font-size:1rem;
-        line-height:1.5;
+    .adventure-overlay p {
+        margin-top: 15px;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 
-    .adventure-button{
-        margin-top:20px;
-        font-size:0.95rem;
+    .adventure-button {
+        margin-top: 20px;
+        font-size: 0.95rem;
     }
 
 }
