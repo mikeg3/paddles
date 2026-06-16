@@ -132,7 +132,7 @@ L.marker([46.131733, -82.192341])
 .addTo(map)
 .bindPopup(`
     <h3>Launch from McBean Harbor</h3>
-    <p>Shortcut to the Benjamin Islands for my second trip</p>
+    <p>Shortcut access point to the Benjamin Islands for my second trip</p>
     <img src="images/gallery/northChannel/McBean.jpg" style="width:250px;border-radius:10px;">
 `);
 
@@ -155,7 +155,7 @@ L.marker([45.970859, -81.385704])
 .addTo(map)
 .bindPopup(`
     <h3>Etches Island</h3>
-    <p></p>
+    <p>Home for 2 nights, close to the access point, ended up being a Georgian Bay treasure</p>
     <img src="images/gallery/pei/Etches_Island_Crystals_2.jpg" style="width:250px;border-radius:10px;">
 `);
 
@@ -166,7 +166,7 @@ L.marker([45.952074, -81.362052])
 .addTo(map)
 .bindPopup(`
     <h3>Fox Islands</h3>
-    <p></p>
+    <p>One of the most incredible fresh water paddling destinations</p>
     <img src="images/gallery/pei/West_Fox_Island_Northern_View_Evening.jpg" style="width:250px;border-radius:10px;">
 `);
 
@@ -177,7 +177,7 @@ L.marker([45.980336, -81.288489])
 .addTo(map)
 .bindPopup(`
     <h3>Phillip Edward Island</h3>
-    <p></p>
+    <p>Two words, paddler's paradise</p>
     <img src="images/gallery/pei/View From an Island During a Kayak Break 2.jpg" style="width:250px;border-radius:10px;">
 `);
 
@@ -188,7 +188,7 @@ L.marker([45.946689, -81.365105])
 .addTo(map)
 .bindPopup(`
     <h3>West Fox Island</h3>
-    <p></p>
+    <p>One of the most epic islands and greatest kayaking experience to date</p>
     <img src="images/gallery/pei/West_Fox_Island_Wave_Shaped_Rock_Formations.jpg" style="width:250px;border-radius:10px;">
 `);
 /* ========================================= */
@@ -241,7 +241,7 @@ L.marker([45.988929, -81.447313])
 .addTo(map)
 .bindPopup(`
     <h3>First campsite in Killarney</h3>
-    <p></p>
+    <p>With a thunderstorm rolling in the distance, I was forced to shore here</p>
     <img src="images/gallery/pei/Thomas_Bay_Shore.jpg" style="width:250px;border-radius:10px;">
 `);
 /* ========================================= */
@@ -251,7 +251,7 @@ L.marker([45.961616, -81.520747])
 .addTo(map)
 .bindPopup(`
     <h3>George Island</h3>
-    <p></p>
+    <p>An island I visited due to poor planning and coordination, a happy accident</p>
     <img src="images/gallery/pei/20210718_151217.jpg" style="width:250px;border-radius:10px;">
 `);
 /* ========================================= */
@@ -262,7 +262,7 @@ L.marker([
 .addTo(map)
 .bindPopup(`
     <h3>Killarney Bay</h3>
-    <p></p>
+    <p>A less visited side of the Killarney region to those without bigger boats, that offers stunning views of the La Cloche Mountains</p>
     <img src="images/gallery/killarney/White quartzite cliffs and pine trees at the entrance in the Killarney Bay in Killarney Ontario Canada 2.jpg" style="width:250px;border-radius:10px;">
 `);
 
