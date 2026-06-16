@@ -123,10 +123,12 @@
     margin-bottom: 20px;
     letter-spacing: 2px;
     overflow: hidden;
+    font-family: rock salt;
 }
 
 .hero-overlay p {
     font-size: 1.3rem;
     line-height: 1.6;
     overflow: hidden;
+    font-family: story script;
 }
