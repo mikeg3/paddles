@@ -99,6 +99,7 @@
             opacity 0.3s ease,
             background 0.3s ease;
         box-sizing: border-box;
+        font-family: 'Arial', Courier, monospace;
     }
 
     .mobile-nav a:hover {
