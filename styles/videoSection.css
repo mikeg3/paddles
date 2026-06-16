@@ -85,10 +85,16 @@
     border-radius: 20px;
     overflow: hidden;
     transition: 0.35s;
+    border: solid 2px white;
 }
 
 .video-card h4 {
     font-family: rock salt;
+}
+
+.video-card p {
+    font-family: story script;
+    font-size: larger;
 }
 
 .video-card:hover {
