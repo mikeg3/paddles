@@ -3,8 +3,7 @@
     margin: 0 auto;
     background-color: black;
     z-index: -2;
-    border-radius: 30px;
-    border: solid 3px white;
+    border-radius: 0 0 30px 30px;
 }
 
 #map {

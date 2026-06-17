@@ -24,6 +24,7 @@ header {
 .logo h1 {
     padding: 5px 15px;
     margin-left: 75px;
+    margin-right: 75px;
     color: white;
     font-size: 1.8rem;
     letter-spacing: 2px;
