@@ -21,21 +21,26 @@ header {
 /* ========================================= */
 /* LOGO */
 /* ========================================= */
-.logo h1, .logo a {
+.logo h1 {
+    padding: 5px 15px;
+    margin-left: 75px;
     color: white;
     font-size: 1.8rem;
     letter-spacing: 2px;
     text-decoration: none;
     font-family: rock salt;
 }
-.logo h1 {
-    padding: 5px 15px;
-}
-
 .logo:hover{
     background: rgba(255,255,255,0.2);
     opacity: 0.9;
     border-radius: 10px;
+}
+.logo a {
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: rock salt;
 }
 
 /* ========================================= */
@@ -62,6 +67,7 @@ nav ul {
     gap: 20px;
     list-style: none;
     transform: translateY(6px);
+    margin-left: 300px;
 }
 
 nav li {

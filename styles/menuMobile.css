@@ -1,4 +1,4 @@
-@media (max-width: 850px) {
+@media (max-width: 1426px) {
     header {
         padding: 3px;
     }
@@ -9,6 +9,7 @@
         letter-spacing: 1px;
         white-space: nowrap;
         text-decoration: underline;
+        margin-left: -3px;
     }
 
 
