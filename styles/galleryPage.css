@@ -5,7 +5,9 @@
     flex-direction:column;
     gap:50px;
     padding:120px 8%;
+    /*background-color: rgb(255 99 71 / 0.5); */
 
+    /*
         background:linear-gradient(
         to bottom,
         
@@ -16,6 +18,19 @@
         #f4f4f4 80%,
         #000000 100%
     );
+    */
+
+    background:linear-gradient(
+        to bottom,
+             rgb(255 255 255 / 0.75) 0%,
+             rgb(200 200 200 / 0.75) 30%,
+             rgb(155 155 155 / 0.75) 40%,
+             rgb(99 99 99 / 0.75) 50%,
+             rgb(30 30 30 / 0.75) 80%,
+             rgb(0 0 0 / 0.75) 90%,
+             rgb(0 0 0 / 1.0) 100%
+        );
+
 }
 
 .region-card{
@@ -25,6 +40,7 @@
     overflow:hidden;
     border-radius:30px;
     text-decoration:none;
+    border: solid 2px black;
 }
 
 .region-card img{
