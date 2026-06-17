@@ -136,7 +136,7 @@
 
 #lightbox-image{
     max-width:92%;
-    max-height:90vh;
+    max-height:90dvh;
     object-fit:contain;
 }
 
