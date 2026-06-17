@@ -1,6 +1,6 @@
 @media (max-width: 850px) {
     header {
-        padding: 10px;
+        padding: 3px;
     }
 
     /* LOGO */
@@ -8,6 +8,7 @@
         font-size: 1.1rem !important;
         letter-spacing: 1px;
         white-space: nowrap;
+        text-decoration: underline;
     }
 
 
@@ -28,8 +29,8 @@
         cursor: pointer;
         z-index: 1001;
         position: fixed;  
-        top: 20px;
-        right: 20px;
+        top: 18px;
+        right: 18px;
     }
 
     .hamburger span {
