@@ -121,35 +121,3 @@
     font-weight: 500;
 }
 
-/* ========================================= */
-/* MOBILE */
-/* ========================================= */
-
-@media (max-width: 768px) {
-
-    .about-section {
-        padding: 80px 15px;
-    }
-
-    .about-header h2 {
-        font-size: 2.8rem;
-    }
-
-    .life-lessons-card {
-        padding: 35px 25px;
-    }
-
-    .life-lessons-card h3 {
-        font-size: 2rem;
-    }
-
-    .life-lessons-text {
-        font-size: 1rem;
-        line-height: 1.9;
-    }
-
-    .highlight-line,
-    .closing-line {
-        font-size: 1.2rem;
-    }
-}
