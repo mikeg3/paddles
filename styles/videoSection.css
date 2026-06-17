@@ -150,12 +150,14 @@
         text-decoration: none;
         padding-top: -10px;
         padding-bottom: 20px;
-        border: solid 3px white;
         border-radius: 30px;
     }
 
     .video-header p {
         font-family: rock salt;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 40px;
     }
 
     .video-section {
