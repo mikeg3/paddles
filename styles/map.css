@@ -38,23 +38,25 @@
 }
 
 .map-quote {
+    width: 80%;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px white;
+    border-radius: 30px;
 }
 
 .map-quote p {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: 20px 15px;
     font-family: "Rock Salt", cursive;
     text-align: center;
     font-size: clamp(1.8rem, 3vw, 3rem);
     color: rgba(20,20,20,0.85);
     color: white;
-    border: solid 3px white;
-    border-radius: 30px;
+    line-height: 65px;
 }
 
 @media (max-width:768px) {
