@@ -1,16 +1,21 @@
-const map = L.map('map').setView([46.5, -81.1], 6);
-
-
-
 /* ========================================= */
-/*               INITIAL MAP                 */
+/*       Clickable locations show on map     */
 /* ========================================= */
-L.tileLayer(
-    'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-    {
-        maxZoom: 18
-    }
-).addTo(map);
+function showLocation(locationName){
+
+    console.log("showLocation called");
+
+    const location = locations[locationName];
+
+    map.flyTo(
+        [location.lat, location.lng],
+        location.zoom,
+        {
+            animate: true,
+            duration: 2
+        }
+    );
+}
 
 /* ========================================= */
 /* Algonquin Park */
@@ -414,50 +419,6 @@ L.marker([45.189563, -74.191540])
     <h3>Sainte-Brabe, Qc</h3>
     <p>Last paddle of 2025 exploring a new area</p>
 `);
-
-
-/* ========================================= */
-/*                PADDLE ROUTES              */
-/* ========================================= */
-/* ========================================= */
-/*            Benjis from McBean             */
-/* ========================================= */
-/*
-var McBeanToBenjaminRoute = {
-    "type": "LineString",
-    "coordinates": [
-        [-82.191744, 46.131645],
-        [-82.197375, 46.125024],
-        [-82.198878, 46.120640],
-        [-82.201754, 46.116744],
-        [-82.204011, 46.111530]
-    ]
-};
-
-var paddleRouteStyle = {
-    color: "#ff7800",
-    weight: 6,
-    opacity: 0.9
-};
-
-L.geoJSON(McBeanToBenjaminRoute, {
-    style: paddleRouteStyle
-}).addTo(map);
-*/
-
-/* ========================================= */
-/*                  CAMP SITES               */
-/* ========================================= */
-/*  NORTH BENJAMIN 1    */
-/*  NORTH BENJAMIN 2    */
-/*  MCGREGOR BAY    */
-/*  WEST FOX    */
-/*  MARTINS ISLAND    */
-/*  THOMAS BAY    */
-/*  SNUG HARBOR    */
-
-/*  AUBREY ISLAND    */
-/*  BEAUSOLEIL    */
 
 
 /* ========================================= */
