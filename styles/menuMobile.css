@@ -95,7 +95,7 @@
 
     .mobile-nav a {
         display: block;
-        padding: 14px 40px;
+        padding: 0px 40px;
         border: 2px solid rgba(255, 255, 255, 0.7);
         border-radius: 15px;
         color: white;
@@ -107,7 +107,6 @@
             opacity 0.3s ease,
             background 0.3s ease;
         box-sizing: border-box;
-        font-family: 'Arial', Courier, monospace;
     }
 
     .mobile-nav a:hover {
