@@ -83,6 +83,7 @@
         border-radius: 15px;
         margin: 0;
         background: rgba(0, 0, 0, 0.95);
+        width: 100%;
     }
     .mobile-nav-gallery li:hover {
         background: rgba(0, 0, 0, 0.2);
@@ -102,6 +103,7 @@
             opacity 0.3s ease,
             background 0.3s ease;
         box-sizing: border-box;
+        font-family: 'Arial', Courier, monospace;
     }
 
     .mobile-nav-gallery a:hover {
