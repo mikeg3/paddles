@@ -1,6 +1,6 @@
 /* ACTUAL GALLERY MOBILE MENU */
 
-@media (max-width: 768px) {
+@media (max-width: 1524px) {
 
     .gallery-menu-header {
         padding: 4px;
@@ -10,6 +10,7 @@
     .logo h1 {
         font-size: 1.4rem;
         letter-spacing: 1px;
+        margin-top: -2px;
     }
 
     /* HIDE DESKTOP NAV */
