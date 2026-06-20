@@ -80,6 +80,8 @@
         border-color 0.25s ease,
         box-shadow 0.25s ease;
     text-decoration: none;
+    font-family: 'Permanent Marker';
+    font-size: larger;
 }
 
 .location-list button:hover{
