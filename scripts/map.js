@@ -111,7 +111,7 @@ var grottoMarker = L.marker([45.245216, -81.524196])
 /* ========================================= */
 /*Little COve */
 /* ========================================= */
-var littleCoveMarker = L.marker([45.245216, -81.524196])
+var littleCoveMarker = L.marker([45.249666, -81.611799,])
     .addTo(map)
     .bindPopup(`
     <h3>Little Cove</h3>
@@ -727,25 +727,25 @@ const locations = {
     grotto: {
         lat: 45.245216,
         lng: -81.524196,
-        zoom: 14,
+        zoom: 15,
         marker: grottoMarker
     },
     dyersBay: {
-        lat: 44.987000,
-        lng: -81.249000,
+        lat: 45.163133, 
+        lng: -81.336435,
         zoom: 13,
         marker: dyersBayMarker
     },
     dunksBay: {
-        lat: 45.243347,
-        lng: -81.575193,
+        lat: 45.249494, 
+        lng: -81.643609,
         zoom: 14,
         marker: dunksBayMarker
     },
     littleCove: {
         lat: 45.249666,
         lng: -81.611799,
-        zoom: 14,
+        zoom: 15,
         marker: littleCoveMarker
     },
 
