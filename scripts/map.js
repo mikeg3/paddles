@@ -21,6 +21,13 @@ var algonquinMarker = L.marker([45.533712, -78.704942])
     <p>Where the inspiration all started and I returned decades later</p>
 `);
 
+var timberBayMarker = L.marker([45.636095, -82.224167])
+    .addTo(map)
+    .bindPopup(`
+    <h3>Timber Bay Nature Preserve</h3>
+    <p>On the open shores of the Lake Huron side of Manitoulin Island, this was a destination for a day paddle from Providence Bay I enjoyed when the weather permitted</p>
+`);
+
 /* ========================================= */
 /* Mauricie */
 /* ========================================= */
@@ -402,8 +409,10 @@ var lachineMarker = L.marker([45.432760, -73.692531])
     .addTo(map)
     .bindPopup(`
     <h3>Lachine</h3>
-    <p>My home base where I can launch of for an evening paddle after work</p>
+    <p>Not only my own home base where I can launch of for an evening paddle after work. But Lachine was the home base for many of the original fur traders and voyagers who were among the first Europeans to settle this country. At the edge of the Montreal's lachine canal, that bridges the Lachine rapids between the other two more nanavigable sides of the Saint-Lawrence river. Lachine was the location that used to connect the old world to the new world. The voyageurs would travel by canoe from where I live and paddle & portage to the great lakes and beyond before returning. Today, one of the oldest buildings in Canada remains at this location, 'The Fur Trade National Historic Site'</p>
     <img src="images/gallery/Lachine.jpg" style="width:250px;border-radius:10px;">
+    <br>
+    <a href="https://parks.canada.ca/lhn-nhs/qc/lachine">More about this historic national site</a>
 `);
 
 /* ========================================= */
@@ -413,14 +422,14 @@ var dowkerMarker = L.marker([45.402868, -73.896060])
     .addTo(map)
     .bindPopup(`
     <h3>Dowker Island</h3>
-    <p>A fun island to paddle around close to where I live</p>
+    <p>A fun island to paddle around close to where I live. Dowker ISland sits close to the junction point between the Saint Lawrence that flows south of Montreal to the Atlantic Ocean and the Ottawa River that runs north of Montreal, sourced by Lake Nipissing via the Georgian Bay from the French River region of Ontario</p>
     <img src="images/gallery/Dowker.jpg" style="width:250px;border-radius:10px;">
 `);
 
 /* ========================================= */
 /* Les Coteaux */
 /* ========================================= */
-var lesCoteauxMarker = L.marker([45.255512, -74.207714])
+var lesCoteauxMarker = L.marker([45.255466, -74.204035])
     .addTo(map)
     .bindPopup(`
     <h3>Les Coteaux</h3>
@@ -569,14 +578,14 @@ const locations = {
         marker: bayOfIslandsMarker
     },
     foxIsland: {
-        lat: 46.088662,
-        lng: -82.253195,
+        lat: 45.952074,
+        lng: -81.362052,
         zoom: 15,
         marker: foxMarker
     },
     creakIsland: {
-        lat: 46.039783,
-        lng: -81.652944,
+        lat: 45.945604, 
+        lng: -81.694243,
         zoom: 13,
         marker: creakIslandMarker
     },
@@ -609,14 +618,14 @@ const locations = {
         marker: georgeIslandMarker
     },
     thomasBay: {
-        lat: 45.999244,
-        lng: -81.546430,
+        lat: 45.988929,
+        lng:  -81.447313,
         zoom: 14,
         marker: thomasBayMarker
     },
     snugHarbor: {
-        lat: 45.970000,
-        lng: -81.520000,
+        lat: 45.956323, 
+        lng: -81.644473,
         zoom: 13,
         marker: snugHarborMarker
     },
@@ -637,20 +646,20 @@ const locations = {
         marker: philipEdwardMarker
     },
     slyFoxIsland: {
-        lat: 45.946689,
-        lng: -81.365105,
+        lat: 45.953534, 
+        lng: -81.366324,
         zoom: 16,
         marker: slyFoxMarker
     },
     martinsIsland: {
-        lat: 45.980336,
-        lng: -81.288489,
-        zoom: 12,
+        lat: 45.954051, 
+        lng: -81.354286,
+        zoom: 16,
         marker: martinsIslandMarker
     },
     etchesIsland: {
-        lat: 45.946689,
-        lng: -81.365105,
+        lat: 45.970859,
+        lng:  -81.385704,
         zoom: 16,
         marker: etchesMarker
     },
@@ -665,30 +674,41 @@ const locations = {
         marker: thousandIslandsMarker
     },
     lachine: {
-        lat: 44.330000,
-        lng: -76.030000,
+        lat: 45.432760, 
+        lng: -73.692531,
         zoom: 11,
         marker: lachineMarker
     },
     dowkerIsland: {
-        lat: 44.330000,
-        lng: -76.030000,
-        zoom: 11,
+        lat: 45.402868, 
+        lng: -73.896060,
+        zoom: 13,
         marker: dowkerMarker
     },
     stnicolet: {
-        lat: 44.330000,
-        lng: -76.030000,
+        lat: 46.228008, 
+        lng: -72.626776,
         zoom: 11,
         marker: stNicoletMarker
     },
    lescoteaux: {
-        lat: 44.330000,
-        lng: -76.030000,
-        zoom: 11,
+        lat: 45.255512, 
+        lng: -74.207714,
+        zoom: 13,
         marker: lesCoteauxMarker
+    },   
+    longsault: {
+        lat: 45.003807, 
+        lng: -74.915544,
+        zoom: 13,
+        marker: longSaultMarker
     },
-
+    saintebarbe: {
+        lat: 45.189563, 
+        lng: -74.191540,
+        zoom: 13,
+        marker: sainteBarbeMarker
+    },
     /* ===================================== */
     /* BRUCE PENINSULA                       */
     /* ===================================== */
@@ -733,14 +753,14 @@ const locations = {
     /* Quebec                      */
     /* ===================================== */
     stukley: {
-        lat: 45.243347,
-        lng: -81.575193,
+        lat: 45.369463, 
+        lng: -72.252020,
         zoom: 14,
         marker: stukelyMarker
     },
     mauricie: {
-        lat: 45.249666,
-        lng: -81.611799,
+        lat: 46.660477, 
+        lng: -73.018113,
         zoom: 14,
         marker: mauricieMarker
     },
@@ -749,6 +769,26 @@ const locations = {
         lng: -70.333945,
         zoom: 13,
         marker: saguenayMarker
+    },
+    /* Ontario */
+    algonquin: {
+        lat: 45.533712, 
+        lng: -78.704942,
+        zoom: 14,
+        marker: algonquinMarker
+    },
+    provBay: {
+        lat: 45.666430, 
+        lng: -82.270689,
+        zoom: 13,
+        marker: provBayMarker
+    },
+    timberBay: {
+        lat: 45.636095, 
+        lng: -82.224167,
+        zoom: 13,
+        marker: timberBayMarker
     }
+
 
 };

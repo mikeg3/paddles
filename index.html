@@ -1302,7 +1302,7 @@
             <section class="location-explorer">
 
                 <div class="location-header">
-                    <h2>Explore The Places</h2>
+                    <h2 id="map-locations-start">Explore The Places</h2>
                     <p>
                         Click a destination to fly there on the map and discover
                         the routes, campsites, galleries and stories from each adventure.
@@ -1416,8 +1416,14 @@
                         <button onclick="showLocation('dowkerIsland', this)">
                             Dowker Island
                         </button>
-                        <button onclick="showLocation('thousandislands', this)">
+                        <button onclick="showLocation('lescoteaux', this)">
                             Les Coteaux
+                        </button>
+                        <button onclick="showLocation('saintebarbe', this)">
+                            Sainte-Barbe
+                        </button>
+                        <button onclick="showLocation('longsault', this)">
+                            Long Sault Parkway
                         </button>
                         <button onclick="showLocation('stnicolet', this)">
                             St-Nicolet
@@ -1441,9 +1447,31 @@
                         </button>
                     </div>
                 </div>
+                <div class="location-group">
+                    <h3>Ontario</h3>
+                    <div class="location-list">
+                        <button onclick="showLocation('algonquin', this)">
+                            Algonquin Park
+                        </button>
+                        <button onclick="showLocation('provBay', this)">
+                            Providence Bay
+                        </button>
+                        <button onclick="showLocation('timberBay', this)">
+                            Timber Bay Nature Preserve
+                        </button>
+                    </div>
+                </div>
             </section>
 
             <div id="map"></div>
+            <br> <br>
+
+            <div class="location-list">
+                <button>
+                    <a class="location-list-link" href="index.html#map-locations-start">Return to all map locations</a>
+                </button>
+            </div>
+
             <br> <br>
 
         </section>

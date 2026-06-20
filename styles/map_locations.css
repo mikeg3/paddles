@@ -47,7 +47,7 @@
     margin: 0 auto;
 }
 
-.location-list button{
+.location-list button {
     min-width: 180px;
     height: 55px;
     padding: 0 20px;
@@ -64,6 +64,24 @@
         border-color 0.25s ease,
         box-shadow 0.25s ease;
     backdrop-filter: blur(8px);
+}
+
+.location-list-link {
+    min-width: 180px;
+    height: 55px;
+    padding: 0 20px;
+    border-radius: 999px;
+    background: (255,255,255,0.08);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+    text-decoration: none;
 }
 
 .location-list button:hover{
