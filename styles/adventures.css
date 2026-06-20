@@ -2,8 +2,9 @@
 /* ADVENTURES SECTION */
 /* ========================================= */
 .featured-adventure {
-    padding: 30px 8%; /*SPACE BETWEEN TOPW CARD ANDSECTION HEADER, CARD WIDTH*/
+    padding: 30px 8%; /*SPACE BETWEEN TOP CARD ANDSECTION HEADER, CARD WIDTH*/
     background: linear-gradient(45deg, #000000, #555555, #f4f4f48e, #eeeeee, #eeeeee, #f4f4f48e, #000000);
+    padding-bottom: 60px;
 }
 
 /* HEADER */

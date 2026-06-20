@@ -4,18 +4,10 @@
     padding:0 20px;
 }
 
-.location-header{
-    padding-top: 60px;
-    text-align: center;
-    color: white;
-    font-size: clamp(2rem,4vw,3.5rem);
-    font-family: 'rock salt';
-}
-
 .location-header p{
     max-width:800px;
     margin:auto;
-    line-height:1.6;
+    line-height: 1.6;
 }
 
 .location-group{

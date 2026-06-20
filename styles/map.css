@@ -16,6 +16,14 @@
     border: solid 5px white;
 }
 
+.map-section-header{
+    padding-top: 10vh;
+    text-align: center;
+    color: white;
+    font-size: clamp(2.5rem, 6vw, 7rem);
+    font-family: 'permanent marker';
+}
+
 .map-header {
     text-align: center;
     padding: 20px 20px;
@@ -54,9 +62,15 @@
     margin-bottom: 60px;
 }
 
+#intro-to-map-section {
+    height: 60vh;
+}
+
 @media (max-width:768px) {
-    .map-section{
-        border: none;
+
+    .map-section-header{
+        font-size: 60px;
+        line-height: 70px;
     }
 
     .map-quote p {
