@@ -9,6 +9,7 @@
     .index-page-gallery-header h2{
         font-size: 12vw;
         text-align: center;
+        padding: 18px 20px;
     }
 
     .gallery-section{
@@ -22,7 +23,7 @@
     }
 
     .gallery-link{
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .gallery-button{
