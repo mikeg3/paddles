@@ -39,24 +39,19 @@
 }
 
 .map-quote {
-    width: 80%;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30px;
 }
 
 .map-quote p {
-    margin: auto;
-    padding: 20px 15px;
-    font-family: "story script", cursive;
+    font-family: "permanent marker", cursive;
     text-align: center;
-    font-size: clamp(1.8rem, 3vw, 3rem);
+    font-size: clamp(1.8rem, 3vw, 2rem);
     color: rgba(20,20,20,0.85);
     color: white;
     line-height: 65px;
+    margin-bottom: 60px;
 }
 
 @media (max-width:768px) {
