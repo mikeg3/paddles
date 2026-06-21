@@ -26,7 +26,7 @@
     font-family: 'rock salt';
 }
 
-.location-list{
+.location-list, .location-list-return-to-map-locations{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,7 +35,7 @@
     margin: 0 auto;
 }
 
-.location-list button {
+.location-list button, .location-list-return-to-map-locations button {
     min-width: 180px;
     height: 55px;
     padding: 0 20px;
@@ -101,4 +101,14 @@
     border-radius:50px;
     cursor:pointer;
     font-size:1rem;
+}
+
+@media (max-width: 420px) {
+
+    .location-list-return-to-map-locations button{
+        max-width: 80%;
+        min-height: 80px;
+    }
+
+   
 }
