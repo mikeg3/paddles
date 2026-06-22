@@ -26,6 +26,7 @@
 @import url(galleries_Style2_Mobile.css);
 @import url(map.css);
 @import url(map_locations.css);
+@import url(gear.css);
 
 *, html, body {
     margin: 0;
