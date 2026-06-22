@@ -22,6 +22,7 @@
     color: white;
     font-size: clamp(2.5rem, 6vw, 7rem);
     font-family: 'permanent marker';
+    text-shadow: 15px 2px 25px rgba(255, 255, 255, 0.838);
 }
 
 .map-header {
