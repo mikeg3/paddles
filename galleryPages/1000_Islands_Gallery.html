@@ -68,11 +68,11 @@
     <nav class="desktop-nav-gallery">
         <ul>
             <li><a href="../index.html#about">Bio</a></li>
-                <li><a href="../index.html#adventure">Adventures</a></li>
-                <li><a href="../index.html#gallery">Gallery</a></li>
-                <li><a href="../index.html#videos">Videos</a></li>
-                <li><a href="../gear.html">Gear</a></li>
-                <li><a class="map-icon-a-link" href="../index.html#map-section">
+            <li><a href="../index.html#adventure">Adventures</a></li>
+            <li><a href="../index.html#gallery">Gallery</a></li>
+            <li><a href="../index.html#videos">Videos</a></li>
+            <li><a href="../gear.html">Gear</a></li>
+            <li><a class="map-icon-a-link" href="../index.html#map-section">
                     <img class="map-icon" src="../images/icons/MapandCompass.svg">
                 </a></li>
         </ul>
@@ -92,48 +92,95 @@
     <!-- ========================================= -->
     <nav class="mobile-nav-gallery">
         <ul>
-                <li><a class="mobile-menu-links" href="../index.html#adventure">Adventures</a></li>
-                <li><a class="mobile-menu-links" href="../index.html#gallery">Gallery</a></li>
-                <li><a class="mobile-menu-links" href="../index.html#videos">Videos</a></li>
-                <li><a class="mobile-menu-links" href="../gear.html">Gear</a></li>
-                <li><a class="mobile-menu-links" href="../index.html#about">About</a></li>
-                <li><a class="mobile-menu-links" href="../index.html#map-section">Map</a></li>
+            <li><a class="mobile-menu-links" href="../index.html#adventure">Adventures</a></li>
+            <li><a class="mobile-menu-links" href="../index.html#gallery">Gallery</a></li>
+            <li><a class="mobile-menu-links" href="../index.html#videos">Videos</a></li>
+            <li><a class="mobile-menu-links" href="../gear.html">Gear</a></li>
+            <li><a class="mobile-menu-links" href="../index.html#about">About</a></li>
+            <li><a class="mobile-menu-links" href="../index.html#map-section">Map</a></li>
         </ul>
     </nav>
 
 
 </header>
 
-<body class="gallery-page">
+<body class="gallery-page" style="background-color: black; color: white;">
 
-    <section  style="background-color: black; color: white;">
-
-    <img src="../images/gallery/1000Islands/mermaidIsland.jpg" alt="Thousand Islands" class="gallery-header-image"
-        style="width: 100%; height: auto; margin-top: 80px;">
-
-    <br><br><br>
-    <h1 style="text-align: center;">COMING SOON</h1>
-        <br><br>
+    <section class="gallery-section-1000islands" style="background-color: black; color: white;">
 
 
-    <!-- LIGHTBOX -->
+        <div class="gallery-header">
+            <h1>The Thousand Islands</h1>
+        </div>
+        <div class="gallery-subheader">
+            <h2>Saint-Lawrence River, Ontario</h2>
+        </div>
+        <div class="gallery-year">
+            <h2>2023</h2>
+        </div>
 
-    <div id="lightbox">
+        <img src="../images/gallery/1000Islands/mermaidIsland.jpg" alt="Thousand Islands" class="gallery-feature-image">
 
-        <button id="close-lightbox">&times;</button>
+        <br>
 
-        <button id="prev-image">&#10094;</button>
+        <!-- ROW -->
+        <div class="gallery-row">
+            <img loading="lazy" src="../images/gallery/1000Islands/Boathouse and Rock.jpg"
+                alt="Kayak view of the Bruce Peninsula coastline near Lions Head" class="gallery-image-style2">
+            <img loading="lazy" src="../images/gallery/1000Islands/Dancing Pines.jpg"
+                alt="Turquoise waters of Georgian Bay near Lions Head on the Bruce Peninsula"
+                class="gallery-image-style2">
+        </div>
 
-        <img id="lightbox-image" src="" alt="">
 
-        <button id="next-image">&#10095;</button>
+        <!-- ROW -->
+        <div class="gallery-row">
+            <img loading="lazy" src="../images/gallery/1000Islands/Half Moon Bay Entrance.jpg"
+                alt="Kayak view of the Bruce Peninsula coastline near Lions Head" class="gallery-image-style2">
+            <img loading="lazy" src="../images/gallery/1000Islands/Half Moon Bay Exit.jpg"
+                alt="Turquoise waters of Georgian Bay near Lions Head on the Bruce Peninsula"
+                class="gallery-image-style2">
+        </div>
 
-    </div>
 
-    <!-- ========================================= -->
-    <!--            GALLERY SCRIPT                 -->
-    <!-- ========================================= -->
-    <script src="../scripts/gallery.js"></script>
+        <!-- ROW -->
+        <div class="gallery-row">
+            <img loading="lazy" src="../images/gallery/1000Islands/Islands and reflections.jpg"
+                alt="Kayak view of the Bruce Peninsula coastline near Lions Head" class="gallery-image-style2">
+            <img loading="lazy" src="../images/gallery/1000Islands/Moss on rocks.jpg"
+                alt="Turquoise waters of Georgian Bay near Lions Head on the Bruce Peninsula"
+                class="gallery-image-style2">
+        </div>
+
+
+        <!-- ROW -->
+        <div class="gallery-row">
+            <img loading="lazy" src="../images/gallery/1000Islands/Narrow Passage.jpg"
+                alt="Kayak view of the Bruce Peninsula coastline near Lions Head" class="gallery-image-style2">
+            <img loading="lazy" src="../images/gallery/1000Islands/Tree on Rock.jpg"
+                alt="Turquoise waters of Georgian Bay near Lions Head on the Bruce Peninsula"
+                class="gallery-image-style2">
+        </div>
+
+
+        <!-- LIGHTBOX -->
+
+        <div id="lightbox">
+
+            <button id="close-lightbox">&times;</button>
+
+            <button id="prev-image">&#10094;</button>
+
+            <img id="lightbox-image" src="" alt="">
+
+            <button id="next-image">&#10095;</button>
+
+        </div>
+
+        <!-- ========================================= -->
+        <!--            GALLERY SCRIPT                 -->
+        <!-- ========================================= -->
+        <script src="../scripts/gallery.js"></script>
 
     </section>
 

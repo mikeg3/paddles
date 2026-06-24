@@ -33,6 +33,14 @@
     border-radius: 25px;
 }
 
+.gallery-section-1000islands{ 
+    max-width:1600px;
+    margin:auto;
+    padding: 80px 5%;
+    margin-top: 80px;
+    background-color: #000000;
+}
+
 .gallery-header{
     text-align:center;
 }
