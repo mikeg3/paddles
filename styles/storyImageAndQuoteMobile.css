@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
 
+    .story-section {
+        border: none;
+    }
+
     .story-block {
         flex-direction: column;
         gap: 0;
