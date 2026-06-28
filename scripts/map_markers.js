@@ -436,6 +436,22 @@ var lesCoteauxMarker = L.marker([45.255466, -74.204035])
     <p>A small stretch in the Saint-Lawrence River where the water turns turquoise</p>
 `);
 
+var CoteauDuLacMarker = L.marker([45.290485, -74.172191])
+    .addTo(map)
+    .bindPopup(`
+    <h3>Coteau-du-lac</h3>
+    <p>A launch into the Saint-Lawrence River, barriered by damns, bridges and rapids to the west, and access to islands including Valleyfield to the south and to the east.</p>
+`);
+
+var IleBizard = L.marker([45.469602, -73.899101])
+    .addTo(map)
+    .bindPopup(`
+    <h3>Ile-Bizard</h3>
+    <p>A launch into the Prairies River, bewtween Ile-Bizard and Montreal's West Island borough of Pierrefonds. I attempted to paddle from this point to Cap-Saint-Jacques, a sandy beach, but ran into some rapids along the route.</p>
+`);
+
+
+
 /* ========================================= */
 /* Long Sault Parkway */
 /* ========================================= */
@@ -477,35 +493,6 @@ var sainteBarbeMarker = L.marker([45.189563, -74.191540])
     <p>Last paddle of 2025 exploring a new area</p>
 `);
 
-
-/* ========================================= */
-/*                PADDLE ROUTES              */
-/* ========================================= */
-/* ========================================= */
-/*            Benjis from McBean             */
-/* ========================================= */
-/*
-var McBeanToBenjaminRoute = {
-    "type": "LineString",
-    "coordinates": [
-        [-82.191744, 46.131645],
-        [-82.197375, 46.125024],
-        [-82.198878, 46.120640],
-        [-82.201754, 46.116744],
-        [-82.204011, 46.111530]
-    ]
-};
-
-var paddleRouteStyle = {
-    color: "#ff7800",
-    weight: 6,
-    opacity: 0.9
-};
-
-L.geoJSON(McBeanToBenjaminRoute, {
-    style: paddleRouteStyle
-}).addTo(map);
-*/
 
 /* ========================================= */
 /*                  CAMP SITES               */
