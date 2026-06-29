@@ -1,10 +1,9 @@
-Remove duplicate quote in benjis gallery
 
 Add legend to map
 
 Complete Gear List page
 
-Complete all pictures gallery
+
 
 Create trip reports:
 - Bruce Day trips 
@@ -31,4 +30,8 @@ Add campsites to map:
 - Etches (conversion)
 - West Fox (conversion)
 - McGregor Bay (conversion)
-- Martins Island (Conversion) 
+- Martins Island (Conversion)
+Add pictures to map?
+
+
+Add trip with Vicki in Magogue to trip and timeline - 2012
