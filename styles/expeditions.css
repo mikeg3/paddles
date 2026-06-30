@@ -417,20 +417,17 @@ blockquote {
   CHAPTER WIDE IMAGE
 =========================================================*/
 .chapter-wide-image {
-    background-attachment: fixed;
-    /* Keeps image static relative to viewport */
-    background-size: cover;
-    /* Forces image to cover the screen */
-    background-position: center;
-    /* Centers the image perfectly */
-    background-repeat: no-repeat; /* Prevents tiling */
-    /* Section sizing */
-    height: 100vh;
-    width: 100%;
-    /* Center any text sitting inside the fixed section */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        position:relative;
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    padding-bottom:200px;
 }
 
 /*=========================================================
@@ -440,30 +437,190 @@ blockquote {
     background-image: url('../images/gallery/benjis/1.jpg');
 }
 
-.chapter-title{
+
+
+
+
+
+/*=========================================
+CHAPTER
+=========================================*/
+
+.chapter{
 position:relative;
-z-index:2;
-color:#fff;
-max-width:900px;
-padding:30px;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+padding:140px 0 220px;
+}
+
+.north-channel{
+background-image:url("../images/heroslides/benjis.jpg");
+}
+
+/*=========================================
+CHAPTER HERO
+=========================================*/
+
+.chapter-hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:0 30px;
 }
 
 .chapter-number{
-display:block;
 font-size:.95rem;
-letter-spacing:8px;
+letter-spacing:6px;
+text-transform:uppercase;
+opacity:.8;
+margin-bottom:15px;
+}
+
+.chapter-hero h2{
+font-size:clamp(3rem,7vw,6rem);
 margin-bottom:20px;
+font-family:"Permanent Marker",cursive;
+}
+
+.chapter-date{
+font-size:1.2rem;
+opacity:.9;
+}
+
+/*=========================================
+STORY CARDS
+=========================================*/
+
+.story-card{
+background:rgba(10,10,10,.72);
+backdrop-filter:blur(12px);
+color:white;
+padding:45px;
+border-radius:22px;
+margin:140px auto;
+box-shadow:0 20px 60px rgba(0,0,0,.35);
+}
+
+/* widths */
+
+.card-small{
+width:min(480px,90%);
+}
+
+.card-medium{
+width:min(700px,92%);
+}
+
+.card-large{
+width:min(900px,94%);
+}
+
+.card-wide{
+width:min(1100px,95%);
+}
+
+/* alignment */
+
+.left{
+margin-left:8%;
+margin-right:auto;
+}
+
+.right{
+margin-right:8%;
+margin-left:auto;
+}
+
+.center{
+margin-left:auto;
+margin-right:auto;
+}
+
+/*=========================================
+PHOTOS
+=========================================*/
+
+.story-photo{
+width:min(550px,90%);
+margin:120px auto;
+}
+
+.story-photo img{
+width:100%;
+display:block;
+border-radius:18px;
+box-shadow:0 20px 50px rgba(0,0,0,.45);
+}
+
+.photo-right{
+margin-left:auto;
+margin-right:10%;
+}
+
+.photo-left{
+margin-right:auto;
+margin-left:10%;
+}
+
+.story-photo figcaption{
+margin-top:12px;
+text-align:center;
+color:white;
+font-style:italic;
 opacity:.8;
 }
 
-.chapter-title h2{
-font-size:clamp(3rem,8vw,6rem);
-font-family:"Permanent Marker",cursive;
-margin-bottom:20px;
-text-shadow:0 5px 25px rgba(0,0,0,.6);
+/*=========================================
+TEXT
+=========================================*/
+
+.story-card p{
+font-size:1.2rem;
+line-height:2;
+margin:0;
 }
 
-.chapter-title p{
-font-size:1.3rem;
-letter-spacing:3px;
+.dropcap:first-letter{
+font-size:4.8rem;
+float:left;
+line-height:.8;
+padding-right:10px;
+font-family:"Permanent Marker",cursive;
+}
+
+.quote{
+font-size:1.7rem;
+font-style:italic;
+text-align:center;
+}
+
+/*=========================================
+MOBILE
+=========================================*/
+
+@media(max-width:850px){
+
+.story-card,
+.story-photo,
+.left,
+.right,
+.center{
+width:92%;
+margin:70px auto;
+}
+
+.story-card{
+padding:30px;
+}
+
+.chapter{
+background-attachment:scroll;
+}
+
 }
