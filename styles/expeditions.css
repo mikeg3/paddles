@@ -217,7 +217,6 @@ blockquote{
 /*=========================================================
   CHAPTER NUMBER
 =========================================================*/
-
 .chapter-number{
     display:block;
     margin-bottom:12px;
@@ -324,7 +323,6 @@ blockquote{
 /*=========================================================
   BLOCK QUOTES
 =========================================================*/
-
 blockquote{
     margin:80px auto;
     max-width:700px;
@@ -335,28 +333,6 @@ blockquote{
     line-height:1.6;
     position:relative;
 }
-
-
-blockquote::before{
-    content:"“";
-    position:absolute;
-    left:-35px;
-    top:-35px;
-    font-size:6rem;
-    color:#bbbbbb;
-    opacity:.35;
-}
-
-blockquote::after{
-    content:"”";
-    position:absolute;
-    right:-35px;
-    bottom:-70px;
-    font-size:6rem;
-    color:#bbbbbb;
-    opacity:.35;
-}
-
 
 /*=========================================================
   SECTION DIVIDER
