@@ -1,4 +1,6 @@
 
+REMOVE LINKS TO UNUSED FONTS
+
 Add legend to map
 
 Complete Gear List page

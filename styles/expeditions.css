@@ -1,0 +1,204 @@
+/* FOR KAYAK TRIP REPORTS AND STORIES */
+/* ========================================= */
+/* PAGE                                      */
+/* ========================================= */
+
+body{
+
+    background:#111;
+    color:white;
+    overflow-x:hidden;
+
+}
+
+/* ========================================= */
+/* HERO                                      */
+/* ========================================= */
+
+.expedition-hero{
+
+    position:relative;
+
+    height:100vh;
+    /* 5 29 30 31*/
+    background-image:url("../images/gallery/benjis/31.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+    overflow:hidden;
+
+}
+
+/*
+REUSE the zoom animation from the homepage.
+
+Copy the animation from:
+
+.hero-slideshow
+
+.slide
+
+zoomAnimation
+
+This keeps your entire website visually connected.
+*/
+
+.expedition-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+}
+
+/* ========================================= */
+/* HERO TEXT                                 */
+/* ========================================= */
+
+.hero-overlay{
+
+    position:absolute;
+
+    z-index:2;
+
+    inset:0;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.hero-location{
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    opacity:.8;
+
+}
+
+.hero-overlay h1{
+
+    font-size:clamp(4rem,8vw,8rem);
+
+    margin:.3em 0;
+
+}
+
+.hero-date{
+
+    font-size:1.2rem;
+
+    opacity:.85;
+
+}
+
+.scroll-arrow{
+
+    margin-top:80px;
+
+    font-size:2rem;
+
+    animation:bounce 2s infinite;
+
+}
+
+.story-section{
+
+    position:relative;
+
+    background:white;
+
+    color:#222;
+
+    padding:140px 0;
+
+}
+
+.story-section.dark{
+
+    background:#111;
+
+    color:white;
+
+}
+
+.story{
+
+    width:min(92%,850px);
+
+    margin:auto;
+
+    line-height:2;
+
+    font-size:1.15rem;
+
+}
+
+.story p{
+
+    margin-bottom:2em;
+
+}
+
+.image-divider{
+
+    height:100vh;
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+}
+
+.image-two{
+
+    background-image:url("../images/gallery/benjis/4.jpg");
+
+}
+
+.story h2{
+
+    font-size:clamp(2.8rem,6vw,5rem);
+
+    margin-bottom:60px;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+}
+
+blockquote{
+
+    font-size:clamp(2rem,4vw,3rem);
+
+    line-height:1.4;
+
+    text-align:center;
+
+    font-style:italic;
+
+    margin:120px auto;
+
+    max-width:900px;
+
+}
