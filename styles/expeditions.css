@@ -4,55 +4,57 @@
 /* PAGE                                      */
 /* ========================================= */
 
-body{
-    background:#111;
-    color:white;
-    overflow-x:hidden;
+body {
+    background: #111;
+    color: white;
+    overflow-x: hidden;
 }
 
 /* ========================================= */
 /* HERO                                      */
 /* ========================================= */
 
-.expedition-hero{
+.expedition-hero {
     position: relative;
     height: 100vh;
     overflow: hidden;
 }
 
-.expedition-hero::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:rgba(0,0,0,.45);
+.expedition-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
 }
 
-.hero-image{
-    position:absolute;
-    inset:0;
+.hero-image {
+    position: absolute;
+    inset: 0;
     /* 5 29 30 31*/
-    background-image:url("../images/gallery/benjis/31.jpg");
-    background-size:cover;
-    background-position:center;
+    background-image: url("../images/gallery/benjis/31.jpg");
+    background-size: cover;
+    background-position: center;
     animation: zoomAndPan 20s infinite;
 }
+
 /* ========================================= */
 /* SLOW ZOOM */
 /* ========================================= */
 @keyframes zoomAndPan {
 
-    0%{
-        transform:scale(150%);
+    0% {
+        transform: scale(150%);
         background-position: 20% left;
     }
 
     /* Pan back left */
-   50%{
-        transform:scale(150%);
+    50% {
+        transform: scale(150%);
         background-position: 20% right;
     }
-    100%{
-        transform:scale(150%);
+
+    100% {
+        transform: scale(150%);
         background-position: 20% left;
     }
 }
@@ -65,11 +67,9 @@ body{
     position: absolute;
     inset: 0;
     background:
-        linear-gradient(
-            to bottom,
-            rgba(0,0,0,0.3),
-            rgba(0,0,0,0.45)
-        );
+        linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.45));
     z-index: 1;
 }
 
@@ -77,15 +77,15 @@ body{
 /* TEXT OVERLAY */
 /* ========================================= */
 .hero-overlay {
-    position:absolute;
-    inset:0;
-    z-index:2;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    color:white;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
 
 .hero-overlay h1 {
@@ -107,318 +107,472 @@ body{
 /* HERO TEXT                                 */
 /* ========================================= */
 
-.hero-overlay{
-    position:absolute;
-    z-index:2;
-    inset:0;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+.hero-overlay {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.hero-location{
-    letter-spacing:4px;
-    text-transform:uppercase;
-    opacity:.8;
+.hero-location {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: .8;
 }
 
-.hero-overlay h1{
-    font-size:clamp(4rem,8vw,8rem);
-    margin:.3em 0;
+.hero-overlay h1 {
+    font-size: clamp(4rem, 8vw, 8rem);
+    margin: .3em 0;
 }
 
-.hero-date{
-    font-size:1.2rem;
-    opacity:.85;
+.hero-date {
+    font-size: 1.2rem;
+    opacity: .85;
 }
 
-.scroll-arrow{
-    margin-top:80px;
-    font-size:2rem;
-    animation:bounce 2s infinite;
+.scroll-arrow {
+    margin-top: 80px;
+    font-size: 2rem;
+    animation: bounce 2s infinite;
 }
 
-.story-section{
-    position:relative;
-    background:white;
-    color:#222;
-    padding:140px 0;
+.story-section {
+    position: relative;
+    background: white;
+    color: #222;
+    padding: 140px 0;
 }
 
-.story-section.dark{
-    background:#111;
-    color:white;
+.story-section.dark {
+    background: #111;
+    color: white;
 }
 
-.story{
-    width:min(92%,850px);
-    margin:auto;
-    line-height:2;
-    font-size:1.15rem;
+.story {
+    width: min(92%, 850px);
+    margin: auto;
+    line-height: 2;
+    font-size: 1.15rem;
 }
 
-.story p{
-    margin-bottom:2em;
+.story p {
+    margin-bottom: 2em;
 }
 
-.image-divider{
-    height:100vh;
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
+.image-divider {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.image-two{
-    background-image:url("../images/gallery/benjis/4.jpg");
+.image-two {
+    background-image: url("../images/gallery/benjis/17.jpg");
 }
 
-.story h2{
-    font-size:clamp(2.8rem,6vw,5rem);
-    margin-bottom:60px;
-    text-transform:uppercase;
-    letter-spacing:3px;
+.story h2 {
+    font-size: clamp(2.8rem, 6vw, 5rem);
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
-blockquote{
-    font-size:clamp(2rem,4vw,3rem);
-    line-height:1.4;
-    text-align:center;
-    font-style:italic;
-    margin:120px auto;
-    max-width:900px;
+blockquote {
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.4;
+    text-align: center;
+    font-style: italic;
+    margin: 120px auto;
+    max-width: 900px;
 }
 
 /*=========================================================
   EXPEDITION STORY LAYOUT
 =========================================================*/
-
-.expedition-section{
-    position:relative;
-    z-index:2;
-    padding:140px 0;
-    background:rgba(10,10,10,0.82);
-
-}
-
-.expedition-section.dark{
-    background: rgba(0,0,0,0.92);
+.expedition-section {
+    position: relative;
+    z-index: 2;
+    padding: 140px 0;
+    background: rgba(10, 10, 10, 0.82);
 
 }
 
-.expedition-container{
-    width:min(900px,88%);
-    margin:auto;
+.expedition-section.dark {
+    background: rgba(0, 0, 0, 0.92);
 
 }
 
+.expedition-container {
+    width: min(900px, 88%);
+    margin: auto;
+
+}
 
 /*=========================================================
   CHAPTER NUMBER
 =========================================================*/
-
-.chapter-number{
-    display:block;
-    margin-bottom:12px;
-    font-size:.9rem;
-    text-transform:uppercase;
-    letter-spacing:7px;
-    color:#9bb6c9;
+.chapter-number {
+    display: block;
+    margin-bottom: 12px;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #9bb6c9;
 }
-
 
 /*=========================================================
   MAIN TITLES
 =========================================================*/
-
-.expedition-container h2{
-    font-family:"Permanent Marker", cursive;
-    font-size:clamp(2.8rem,6vw,5rem);
-    font-weight:300;
-    line-height:1.05;
-    color:white;
-    margin-bottom:50px;
+.expedition-container h2 {
+    font-family: "Permanent Marker", cursive;
+    font-size: clamp(2.8rem, 6vw, 5rem);
+    font-weight: 300;
+    line-height: 1.05;
+    color: white;
+    margin-bottom: 50px;
 }
 
 
 /*=========================================================
   SUBHEADINGS
 =========================================================*/
-
-.expedition-container h3{
-    font-size:2rem;
-    color:white;
-    margin-top:80px;
-    margin-bottom:25px;
-    font-weight:400;
+.expedition-container h3 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-weight: 400;
 }
-
 
 /*=========================================================
   NORMAL PARAGRAPHS
 =========================================================*/
-
-.expedition-container p{
-    color:#d9d9d9;
-    font-size:1.2rem;
-    line-height:2;
-    margin-bottom:34px;
+.expedition-container p {
+    color: #d9d9d9;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 34px;
 }
-
 
 /*=========================================================
   OPENING PARAGRAPH
 =========================================================*/
-
-.lead{
-    font-size:1.7rem !important;
-    line-height:1.6 !important;
-    color:white !important;
-    font-weight:300;
-
+.lead {
+    font-size: 1.7rem !important;
+    line-height: 1.6 !important;
+    color: white !important;
+    font-weight: 300;
 }
-
 
 /*=========================================================
   LARGE EMPHASIS TEXT
 =========================================================*/
-
-.large-text{
-    font-size:2rem !important;
-    line-height:1.5;
-    color:white !important;
-    font-weight:300;
-    margin:60px 0;
+.large-text {
+    font-size: 2rem !important;
+    line-height: 1.5;
+    color: white !important;
+    font-weight: 300;
+    margin: 60px 0;
 }
-
 
 /*=========================================================
   HIGHLIGHT SENTENCE
 =========================================================*/
-
-.highlight{
-    font-size:1.8rem !important;
-    color:#ffffff !important;
-    font-style:italic;
-    border-left:5px solid #bbbbbb;
-    padding-left:28px;
-    margin:55px 0;
-
+.highlight {
+    font-size: 1.8rem !important;
+    color: #ffffff !important;
+    font-style: italic;
+    border-left: 5px solid #bbbbbb;
+    padding-left: 28px;
+    margin: 55px 0;
 }
-
 
 /*=========================================================
   SURPRISE / REVEAL
 =========================================================*/
-
-.surprise{
-    text-align:center;
-    font-size:2.5rem !important;
-    color:#bbbbbb !important;
-    font-family:"Permanent Marker";
-    margin:70px 0;
+.surprise {
+    text-align: center;
+    font-size: 2.5rem !important;
+    color: #bbbbbb !important;
+    font-family: "Permanent Marker";
+    margin: 70px 0;
 }
-
 
 /*=========================================================
   BLOCK QUOTES
 =========================================================*/
-
-blockquote{
-    margin:80px auto;
-    max-width:700px;
-    text-align:center;
-    color:white;
-    font-style:italic;
-    font-size:2rem;
-    line-height:1.6;
-    position:relative;
+blockquote {
+    margin: 80px auto;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 1.6;
+    position: relative;
 }
-
-
-blockquote::before{
-    content:"“";
-    position:absolute;
-    left:-35px;
-    top:-35px;
-    font-size:6rem;
-    color:#bbbbbb;
-    opacity:.35;
-}
-
-blockquote::after{
-    content:"”";
-    position:absolute;
-    right:-35px;
-    bottom:-70px;
-    font-size:6rem;
-    color:#bbbbbb;
-    opacity:.35;
-}
-
 
 /*=========================================================
   SECTION DIVIDER
 =========================================================*/
-
-.expedition-divider{
-    width:140px;
-    height:2px;
-    margin:100px auto;
+.expedition-divider {
+    width: 140px;
+    height: 2px;
+    margin: 100px auto;
     background:
-        linear-gradient(
-            to right,
+        linear-gradient(to right,
             transparent,
             white,
-            transparent
-        );
+            transparent);
 
 }
-
 
 /*=========================================================
   LINKS
 =========================================================*/
-
-.expedition-container a{
-    color:#79c6ff;
-    text-decoration:none;
+.expedition-container a {
+    color: #79c6ff;
+    text-decoration: none;
 }
 
-.expedition-container a:hover{
-    color:white;
+.expedition-container a:hover {
+    color: white;
 }
-
 
 /*=========================================================
   MOBILE
 =========================================================*/
+@media(max-width:900px) {
 
-@media(max-width:900px){
-
-    .expedition-section{
-        padding:90px 0;
+    .expedition-section {
+        padding: 90px 0;
     }
 
-    .lead{
-        font-size:1.45rem !important;
+    .lead {
+        font-size: 1.45rem !important;
     }
 
-    .large-text{
-        font-size:1.55rem !important;
+    .large-text {
+        font-size: 1.55rem !important;
     }
 
-    .highlight{
-        font-size:1.45rem !important;
+    .highlight {
+        font-size: 1.45rem !important;
     }
 
-    .surprise{
-        font-size:2rem !important;
+    .surprise {
+        font-size: 2rem !important;
     }
 
-    blockquote{
-        font-size:1.5rem;
+    blockquote {
+        font-size: 1.5rem;
+    }
+
+}
+
+/*=========================================================
+  EMBEDDED PICTURES
+=========================================================*/
+/* PLANNING MAP */
+.planning-map-container {
+    align-items: center;
+    width: 100%;
+}
+
+.planning-map {
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+/*=========================================================
+  CHAPTER WIDE IMAGE - CHAPTER 3 - INTO THE NORTH CHANNEL
+=========================================================*/
+
+/*=================================================
+CHAPTER ( - CHAPTER 3 - INTO THE NORTH CHANNEL)
+==================================================*/
+.chapter-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 140px 0 220px;
+}
+
+.north-channel-chapter {
+    background-image: url("../images/heroslides/benjis.jpg");
+}
+
+/*=========================================
+CHAPTER HERO
+=========================================*/
+
+.chapter-hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 30px;
+}
+
+.chapter-number {
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    opacity: .8;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.chapter-hero h2 {
+    font-size: clamp(3rem, 7vw, 6rem);
+    margin-bottom: 20px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.chapter-date {
+    font-size: 1.5rem;
+    opacity: .9;
+}
+
+/*=========================================
+STORY CARDS
+=========================================*/
+
+.story-card {
+    background: rgba(10, 10, 10, .72);
+    backdrop-filter: blur(12px);
+    color: white;
+    padding: 45px;
+    border-radius: 22px;
+    margin: 140px auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+}
+
+/* widths */
+
+.card-small {
+    width: min(480px, 90%);
+}
+
+.card-medium {
+    width: min(700px, 92%);
+}
+
+.card-large {
+    width: min(900px, 94%);
+}
+
+.card-wide {
+    width: min(1100px, 95%);
+}
+
+/* alignment */
+
+.left {
+    margin-left: 8%;
+    margin-right: auto;
+}
+
+.right {
+    margin-right: 8%;
+    margin-left: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*=========================================
+PHOTOS
+=========================================*/
+
+.story-photo {
+    width: min(550px, 90%);
+    margin: 120px auto;
+}
+
+.story-photo img {
+    width: 100%;
+    display: block;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .45);
+}
+
+.photo-right {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.photo-left {
+    margin-right: auto;
+    margin-left: 10%;
+}
+
+.story-photo figcaption {
+    margin-top: 12px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    opacity: .8;
+}
+
+/*=========================================
+TEXT
+=========================================*/
+
+.story-card p {
+    font-size: 1.2rem;
+    line-height: 2;
+    margin: 0;
+}
+
+.dropcap:first-letter {
+    font-size: 4.8rem;
+    float: left;
+    line-height: .8;
+    padding-right: 10px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.quote {
+    font-size: 1.7rem;
+    font-style: italic;
+    text-align: center;
+}
+
+/*=========================================
+MOBILE
+=========================================*/
+
+@media(max-width:850px) {
+
+    .story-card,
+    .story-photo,
+    .left,
+    .right,
+    .center {
+        width: 92%;
+        margin: 70px auto;
+    }
+
+    .story-card {
+        padding: 30px;
+    }
+
+    .chapter {
+        background-attachment: scroll;
     }
 
 }
