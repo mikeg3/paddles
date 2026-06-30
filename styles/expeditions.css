@@ -439,3 +439,31 @@ blockquote {
 .north-channel-chapter-image {
     background-image: url('../images/gallery/benjis/1.jpg');
 }
+
+.chapter-title{
+position:relative;
+z-index:2;
+color:#fff;
+max-width:900px;
+padding:30px;
+}
+
+.chapter-number{
+display:block;
+font-size:.95rem;
+letter-spacing:8px;
+margin-bottom:20px;
+opacity:.8;
+}
+
+.chapter-title h2{
+font-size:clamp(3rem,8vw,6rem);
+font-family:"Permanent Marker",cursive;
+margin-bottom:20px;
+text-shadow:0 5px 25px rgba(0,0,0,.6);
+}
+
+.chapter-title p{
+font-size:1.3rem;
+letter-spacing:3px;
+}
