@@ -1,81 +1,4 @@
 /* ========================================= */
-/* HERO SLIDESHOW */
-/* ========================================= */
-
-.hero-slideshow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100dvh;
-    z-index: -1;
-}
-
-
-/* ========================================= */
-/* SLIDES */
-/* ========================================= */
-.slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    animation:
-        fadeAnimation 32.5s infinite, /*ANIMATION DELAY x NUMBER OF SLIDES */
-        zoomAnimation 32.5s infinite;
-}
-
-/* ========================================= */
-/* BACKGROUND IMAGES */
-/* ========================================= */
-
-.slide1 {
-    background-image: url("../images/heroslides/benjis.jpg");
-    animation-delay: 0s; 
-}
-.slide2 {
-    background-image: url("../images/heroslides/benjirocks.jpg");
-    animation-delay: 6.5s; /* 1/(number of slides) x  ANIMATION DELAY */
-}
-.slide3 {
-    background-image: url("../images/gallery/benjis/20250817_204052.jpg");
-    animation-delay: 13s; 
-}
-.slide4 {
-    background-image: url("../images/heroslides/20250818_165843.jpg");
-    animation-delay: 19.5s; 
-}
-.slide5 {
-    background-image: url("../images/heroslides/4.jpg");
-    animation-delay: 26s; 
-}
-
-/* ========================================= */
-/* FADE ANIMATION */
-/* ========================================= */
-@keyframes fadeAnimation {
-
-    0% {
-        opacity: 0;
-    }
-    5% {
-        opacity: 1;
-    }
-    30% {
-        opacity: 1;
-    }
-    40% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-/* ========================================= */
 /* SLOW ZOOM */
 /* ========================================= */
 @keyframes zoomAnimation {
@@ -83,8 +6,11 @@
     0% {
         transform: scale(1);
     }
+    50% {
+        transform: scale(1.2);
+    }
     100% {
-        transform: scale(1.12);
+        transform: scale(1);
     }
 }
 /* ========================================= */
@@ -159,40 +85,7 @@
         line-height: 1.5;
     }
 
-    /* ------------------------------------- */
-    /* MOBILE IMAGE POSITIONING */
-    /* Adjust each image independently */
-    /* ------------------------------------- */
-    .slide1 {   /* Grotto */
-        background-position: left;
-        animation:
-            slide1 100s infinite;
-    }
-
-    .slide2 {   /* Benjis */
-        background-position: left;
-        animation:
-            slide2 100s infinite;
-    }
-
-    .slide3 {   /* McGregor */
-        background-position: left;
-        animation:
-            slide3 100s infinite;
-    }
-
-    .slide4 {   /* Sly Fox */
-        background-position: left;
-        animation:
-            slide4 100s infinite;
-    }
-
-    .slide5 {   /* Benjis Rocks*/
-        background-position: left;
-        animation:
-            slide5 100s infinite;
-    }
-
+  
     /* ========================================= */
     /* MOBILE PAN ANIMATION */
     /* ========================================= */
