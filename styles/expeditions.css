@@ -398,3 +398,16 @@ blockquote{
     }
 
 }
+
+/* EMBEDDED PICTURES */
+/* PLANNING MAP */
+.planning-map-container {
+        align-items: center;
+        width: 100%;
+    }
+.planning-map {
+        align-items: center;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: auto;
+    }
