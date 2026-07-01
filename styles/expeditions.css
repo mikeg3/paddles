@@ -454,6 +454,12 @@ CHAPTER HERO
     font-family: "Permanent Marker", cursive;
 }
 
+.chapter-mini h3 {
+    font-size: clamp(3rem, 7vw, 6rem);
+    margin-bottom: 20px;
+    font-family: "Permanent Marker", cursive;
+}
+
 .chapter-date {
     font-size: 1.5rem;
     opacity: .9;
@@ -666,6 +672,24 @@ TEXT
     font-size: 1.7rem;
     font-style: italic;
     text-align: center;
+}
+
+ /*=========================================
+SCROLL REVEAL ANIMATION
+=========================================*/
+
+.reveal-animation{
+opacity:0;
+transform:translateY(60px);
+transition:
+opacity .9s ease,
+transform .9s ease;
+will-change:opacity,transform;
+}
+
+.reveal-animation.visible{
+opacity:1;
+transform:translateY(0);
 }
 
 /*=========================================
