@@ -391,6 +391,11 @@ blockquote {
     margin-right: auto;
 }
 
+.embedded-image img{
+    border-radius: 22px;
+    width: 100%;
+    margin-top: 30px;
+}
 /*=========================================================
   EMBEDDED VIDEOS
 =========================================================*/
