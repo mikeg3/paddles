@@ -560,7 +560,7 @@ IMAGE CARD
 .card-center-image {
     width: 40%;
     padding: 0%;
-    border: solid 2px white;
+    border: solid 5px black;
 }
 
 .card-center-image img {
