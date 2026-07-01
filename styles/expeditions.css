@@ -381,13 +381,27 @@ blockquote {
 .planning-map-container {
     align-items: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .planning-map {
     align-items: center;
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     margin-right: auto;
+}
+
+/*=========================================================
+  EMBEDDED VIDEOS
+=========================================================*/
+.embedded-video{
+    width: 100%;
+    height: 100%;
+}
+
+.embedded-video iframe{
+    width: 100%;
+    height: 100%;
 }
 
 /*=========================================================
