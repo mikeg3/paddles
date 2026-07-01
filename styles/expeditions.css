@@ -495,6 +495,108 @@ STORY CARDS
 }
 
 /*=========================================
+SIDE-BY-SIDE STORY ROW
+=========================================*/
+.story-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    width: min(1400px, 95%);
+    margin: 120px auto;
+}
+
+/*----------------------------------------
+TEXT CARD
+----------------------------------------*/
+
+.story-row .story-card {
+    margin: 0;
+    flex: 1 1 60%;
+}
+
+/*----------------------------------------
+IMAGE CARD
+----------------------------------------*/
+.story-image-card {
+    flex: 1 1 40%;
+    background: rgba(10, 10, 10, .72);
+    backdrop-filter: blur(12px);
+    border-radius: 22px;
+    padding: 18px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
+}
+
+.story-image-card img {
+    display: block;
+    width: 100%;
+    border-radius: 14px;
+}
+
+.story-image-card figcaption {
+    margin-top: 15px;
+    font-size: .95rem;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    opacity: .8;
+    line-height: 1.6;
+}
+
+.card-center-image {
+    width: 40%;
+    padding: 0%;
+    border: solid 2px white;
+}
+
+.card-center-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*----------------------------------------
+OPTIONAL SIZE MODIFIERS
+----------------------------------------*/
+
+.story-row.large-text .story-card {
+    flex: 2;
+}
+
+.story-row.large-text .story-image-card {
+    flex: 1;
+}
+
+.story-row.large-image .story-card {
+    flex: 1;
+}
+
+.story-row.large-image .story-image-card {
+    flex: 1.5;
+}
+
+/*----------------------------------------
+MOBILE
+----------------------------------------*/
+
+@media(max-width:900px) {
+
+    .story-row {
+        display: block;
+        width: 92%;
+        margin: 70px auto;
+    }
+
+    .story-row .story-card {
+        margin-bottom: 35px;
+    }
+
+    .story-image-card {
+        width: 100%;
+    }
+
+}
+
+/*=========================================
 PHOTOS
 =========================================*/
 
